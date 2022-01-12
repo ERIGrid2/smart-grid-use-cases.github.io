@@ -14,5 +14,5 @@ for dir in $(find content/en/docs/erigrid2-test-cases/ -mindepth 1 -maxdepth 1 -
 do
   cp -a $dir content/en/docs/UseCases
 done
-rm Bridge.zip
+rm erigrid2-test-cases.zip
 rm -rf content/en/docs/erigrid2-test-cases
