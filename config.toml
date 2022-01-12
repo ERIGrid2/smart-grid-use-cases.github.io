@@ -1,5 +1,5 @@
-baseURL = "https://smart-grid-use-cases.github.io"
-title = "Smart Grid Use Cases"
+baseURL = "https://erigrid2.github.io/test-case-descriptions/"
+title = "ERIGrid 2.0 Test Cases"
 
 enableRobotsTXT = true
 
@@ -53,8 +53,8 @@ anchor = "smart"
 
 [languages]
 [languages.en]
-title = "Smart Grid Use Cases"
-description = "A repository for smart grid use cases"
+title = "ERIGrid 2.0 Test Cases"
+description = "A repository for smart grid test cases"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
