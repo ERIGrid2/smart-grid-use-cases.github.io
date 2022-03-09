@@ -1,0 +1,62 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ERIGrid 2.0 Test Cases – Test Case TC09</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc09/</link><description>Recent content in Test Case TC09 on ERIGrid 2.0 Test Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 09 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc09/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Test Specification TC9.TS01</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc09/tc9.ts01/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc09/tc9.ts01/</guid><description>
+&lt;h2 id="test-rationale">Test Rationale&lt;/h2>
+&lt;p>The goal of this Test is to evaluate the performance of a direct congestion management method. The results of the developed congestion forecasting model will be compared to the actual values to assess its accuracy. Afterwards, the efficiency of the method will be evaluated in terms of target metrics specified in the Test Case description.&lt;/p>
+&lt;h2 id="specific-test-system">Specific Test System&lt;/h2>
+&lt;p>The Test System includes a LV (0.4 kV) network with realistic data provided by a local utility company. This network consists of three feeders with various loads and PV systems connected along the feeders.&lt;/p>
+&lt;p>&lt;img src="../image2.png" alt="image2.png">&lt;/p>
+&lt;h2 id="target-measures">Target measures&lt;/h2>
+&lt;p>Voltages, currents of all grid components.&lt;/p>
+&lt;h2 id="input-and-output-parameters">Input and output parameters&lt;/h2>
+&lt;p>Weather conditions (hence DER production), grid topology, household load profiles, controllable generation production&lt;/p>
+&lt;h2 id="test-design">Test Design&lt;/h2>
+&lt;ul>
+&lt;li>Initialize the simulation, achieving a steady state condition;&lt;/li>
+&lt;li>Keep the simulation running with the feeding load and generation profiles in order to create several congestion conditions (peak of load or peak of generation) over the whole simulation run&lt;/li>
+&lt;li>Evaluate the results of the test in terms of transformer loading power, flexibility procured by the DSO, and procurement cost in two cases with and without the congestion management functionality in the DMS controller&lt;/li>
+&lt;li>Reinitialize the simulation and repeat the test with different congestion condition.&lt;/li>
+&lt;/ul>
+&lt;h2 id="initial-system-state">Initial system state&lt;/h2>
+&lt;p>Transformer and feeders loading in permissible ranges.&lt;/p>
+&lt;h2 id="evolution-of-system-state-and-test-signals">Evolution of system state and test signals&lt;/h2>
+&lt;p>The evolution of the congestion at the MV/LV transformer is illustrated in the figure below:&lt;/p>
+&lt;p>The evolution of the system state is shown in the figures below:&lt;/p>
+&lt;p>Solar profile:&lt;/p>
+&lt;p>Wind profile:&lt;/p>
+&lt;h2 id="other-parameters">Other parameters&lt;/h2>
+&lt;p>n/a.&lt;/p>
+&lt;h2 id="temporal-resolution">Temporal resolution&lt;/h2>
+&lt;p>15 minutes&lt;/p>
+&lt;h2 id="source-of-uncertainty">Source of uncertainty&lt;/h2>
+&lt;p>Measurement uncertainty&lt;/p>
+&lt;h2 id="suspension-criteria--stopping-criteria">Suspension criteria / Stopping criteria&lt;/h2>
+&lt;p>Low accuracy of the congestion classification model during the training process, i.e., less than 80%&lt;/p>
+&lt;h2 id="mapping-to-research-infrastructure">Mapping to Research Infrastructure&lt;/h2></description></item><item><title>Docs: Test Specification TC9.TS02</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc09/tc9.ts02/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc09/tc9.ts02/</guid><description>
+&lt;h2 id="test-rationale">Test Rationale&lt;/h2>
+&lt;p>The goal of this Test is to evaluate the performance of the indirect method considering the impact of the communication latency and packet losses on a LV grid congestion management.&lt;/p>
+&lt;h2 id="specific-test-system">Specific Test System&lt;/h2>
+&lt;p>The Test System includes a LV (0.4 kV) network with realistic data provided by a local utility company. This network consists of three feeders with various loads and PV systems connected along the feeders.&lt;/p>
+&lt;p>In addition to the above network, a market model is also developed.&lt;/p>
+&lt;p>&lt;img src="../image2.png" alt="image2.png">
+&lt;img src="../image6.png" alt="image6.png">&lt;/p>
+&lt;h2 id="target-measures">Target measures&lt;/h2>
+&lt;p>Voltages, currents of all grid components and grid services cost.&lt;/p>
+&lt;h2 id="input-and-output-parameters">Input and output parameters&lt;/h2>
+&lt;p>Weather condition (hence DER production), grid topology, household load profiles, controllable generation production&lt;/p>
+&lt;h2 id="test-design">Test Design&lt;/h2>
+&lt;p>Initialize the simulation; achieve a steady state condition; trigger a congestion condition (peak of load or peak of generation); evaluate the response of the DMS controller; reinitialize the simulation and repeat the test with different congestion condition and the baseline.&lt;/p>
+&lt;h2 id="initial-system-state">Initial system state&lt;/h2>
+&lt;p>Transformer and feeders loading in permissible ranges.&lt;/p>
+&lt;h2 id="evolution-of-system-state-and-test-signals">Evolution of system state and test signals&lt;/h2>
+&lt;p>The evolution of the congestion at the MV/LV transformer is illustrated in the figure below:&lt;/p>
+&lt;p>The evolution of the system state is shown in the figures below:&lt;/p>
+&lt;p>Solar profile:&lt;/p>
+&lt;p>Wind profile:&lt;/p>
+&lt;h2 id="other-parameters">Other parameters&lt;/h2>
+&lt;p>n/a.&lt;/p>
+&lt;h2 id="temporal-resolution">Temporal resolution&lt;/h2>
+&lt;p>15 minutes&lt;/p>
+&lt;h2 id="source-of-uncertainty">Source of uncertainty&lt;/h2>
+&lt;p>Measurement uncertainty&lt;/p>
+&lt;h2 id="suspension-criteria--stopping-criteria">Suspension criteria / Stopping criteria&lt;/h2>
+&lt;p>Not converging of the optimization method.&lt;/p>
+&lt;h2 id="mapping-to-research-infrastructure">Mapping to Research Infrastructure&lt;/h2></description></item></channel></rss>

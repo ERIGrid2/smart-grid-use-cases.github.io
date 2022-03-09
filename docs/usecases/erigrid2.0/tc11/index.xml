@@ -1,0 +1,76 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ERIGrid 2.0 Test Cases – Test Case TC11</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc11/</link><description>Recent content in Test Case TC11 on ERIGrid 2.0 Test Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 09 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc11/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Test Specification TC.TS02</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc11/tc.ts02/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc11/tc.ts02/</guid><description>
+&lt;h2 id="test-rationale">Test Rationale&lt;/h2>
+&lt;p>This test characterizes district operation of a simple long district heat pipe with heat booster HP and without Booster Heater Controller and Electric Storage Controller active, seeking to demonstrate that the local controllers respond to service requests from the aggregator controller.&lt;/p>
+&lt;h2 id="specific-test-system">Specific Test System&lt;/h2>
+&lt;p>The system under test includes an electrical system, a district heating system and a control system. Each is sketched below.&lt;/p>
+&lt;p>Thermal system&lt;/p>
+&lt;p>The thermal system is a simplified distribution network which includes a booster heat pump. The heat load is aggregated in two locations.&lt;/p>
+&lt;p>Electrical system&lt;/p>
+&lt;p>The electrical system corresponds to a single feeder.&lt;/p>
+&lt;p>Control domain coupling&lt;/p>
+&lt;p>The distribution grid management does not form part of the system under are taken as exogenous signals.&lt;/p>
+&lt;p>&lt;img src="../image2.png" alt="image2.png">
+&lt;img src="../image3.png" alt="image3.png">
+&lt;img src="../image4.png" alt="image4.png">&lt;/p>
+&lt;h2 id="target-measures">Target measures&lt;/h2>
+&lt;p>See Test Design.&lt;/p>
+&lt;h2 id="input-and-output-parameters">Input and output parameters&lt;/h2>
+&lt;ul>
+&lt;li>P_PCC: Measured apparent electrical import at the district electrical network point of common coupling [kWe]&lt;/li>
+&lt;li>Q_PCC: Measured heat import at the district heating network point of common coupling [kWq]&lt;/li>
+&lt;li>P_booster: Measured electrical active power consumption of district booster heater [kWe]&lt;/li>
+&lt;/ul>
+&lt;h2 id="test-design">Test Design&lt;/h2>
+&lt;p>The test comprises 24 hours of district operation. During these 24 hours, the heat pump controller is asked to keep the forward temperature of the connected pipe above 70ºC.&lt;/p>
+&lt;p>Further, these services are requested of the Aggregator by the Distribution Grid Management:&lt;/p>
+&lt;ul>
+&lt;li>for 07:00 to 09:00, keep district electrical consumption below P_import_limit kW..&lt;/li>
+&lt;li>for 11:00 to 14:00, keep district electrical consumption above P_export_limit kW.&lt;/li>
+&lt;li>for 17:00 to 19:00, keep district electrical consumption below P_import_limit kW
+where these limits are defined as below.&lt;/li>
+&lt;/ul>
+&lt;p>The test consists of several runs:&lt;/p>
+&lt;ol>
+&lt;li>no service signal sent&lt;/li>
+&lt;li>service signals sent (gamma indicates the level of service requested – lower gamma = more service requested)&lt;/li>
+&lt;li>gamma = 1.0&lt;/li>
+&lt;li>gamma = 0.95&lt;/li>
+&lt;li>gamma = 0.90&lt;/li>
+&lt;li>gamma = 0.85&lt;/li>
+&lt;li>gamma = 0.80&lt;/li>
+&lt;/ol>
+&lt;p>By comparing these runs, whether the controllers respond to service requests can be established.&lt;/p>
+&lt;p>For run 1, set:&lt;/p>
+&lt;ul>
+&lt;li>P_import_limit = inf,&lt;/li>
+&lt;li>P_export_limit = -inf&lt;/li>
+&lt;li>gamma=1.0.&lt;/li>
+&lt;/ul>
+&lt;p>For subsequent runs (given the 99% quantile of district electrical import P_i_99 and the 1% quantile of district electrical import, P_i_1), the system is asked to restrict its import relative to the uncontrolled base case:&lt;/p>
+&lt;ul>
+&lt;li>P_export_limit= gamma * P_i_1 kWe&lt;/li>
+&lt;li>P_import_limit = gamma* P_i_99 kWe,&lt;/li>
+&lt;/ul>
+&lt;h2 id="initial-system-state">Initial system state&lt;/h2>
+&lt;ul>
+&lt;li>each component is initialized to the state given in the associated dataset&lt;/li>
+&lt;li>the battery state of charge is set to 50% of nomimal energy&lt;/li>
+&lt;li>the district heating system is allowed to relax to a steady state with the heat pump turned off&lt;/li>
+&lt;/ul>
+&lt;h2 id="evolution-of-system-state-and-test-signals">Evolution of system state and test signals&lt;/h2>
+&lt;p>Test signals:&lt;/p>
+&lt;ul>
+&lt;li>P_import_limit: District electrical consumption bound requested from battery/EV units [kWe]&lt;/li>
+&lt;li>P_export_limit: District electrical export bound requested from heating units [kWe]&lt;/li>
+&lt;li>gamma: Scaling factor for district import and export [n.u.]&lt;/li>
+&lt;/ul>
+&lt;h2 id="other-parameters">Other parameters&lt;/h2>
+&lt;p>N/A&lt;/p>
+&lt;h2 id="temporal-resolution">Temporal resolution&lt;/h2>
+&lt;p>The test is run at a fixed time step of 10 seconds.&lt;/p>
+&lt;h2 id="source-of-uncertainty">Source of uncertainty&lt;/h2>
+&lt;p>Since the exact electrical demand signal consists of a deterministic trend and a randomized factor, each “run” above should be repeated 10 times, with the mean and standard deviation of each target metric recorded.&lt;/p>
+&lt;h2 id="suspension-criteria--stopping-criteria">Suspension criteria / Stopping criteria&lt;/h2>
+&lt;p>N/A&lt;/p>
+&lt;h2 id="mapping-to-research-infrastructure">Mapping to Research Infrastructure&lt;/h2>
+&lt;p>The test specifications are implemented in several co-simulation setups. The reference implementation for TS01 is a pure ython / osaik implementation; the reference implementation for TS02 is a co-simulation using Dymola, PandaPower and osaik as orchestrator.&lt;/p></description></item></channel></rss>

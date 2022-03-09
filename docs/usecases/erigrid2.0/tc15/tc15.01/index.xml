@@ -1,0 +1,21 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ERIGrid 2.0 Test Cases – Test Specification TC15.01</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc15/tc15.01/</link><description>Recent content in Test Specification TC15.01 on ERIGrid 2.0 Test Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 09 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc15/tc15.01/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Experiment Specification TC15.01.01</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc15/tc15.01/tc15.01.01/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc15/tc15.01/tc15.01.01/</guid><description>
+&lt;h2 id="research-infrastructure">Research Infrastructure&lt;/h2>
+&lt;p>Electric Energy Systems Laboratory (ICCS-NTUA)&lt;/p>
+&lt;h2 id="experiment-realisation">Experiment Realisation&lt;/h2>
+&lt;p>Smart grid control algorithm for optimal operation of distribution network with voltage regulating assets and DERS. Hardware MGCC for implementation of industrial communication scheme and hardware inverter for validation in real conditions.&lt;/p>
+&lt;h2 id="experiment-setup">Experiment Setup&lt;/h2>
+&lt;ul>
+&lt;li>Simulated distribution network in RTDS&lt;/li>
+&lt;li>PV inverter (SMA)&lt;/li>
+&lt;li>PV simulator (Regatron)&lt;/li>
+&lt;li>Spitzenberger and Spies Linear Amplifier&lt;/li>
+&lt;li>External central controller (ControlHUT) (SEL MGCC)&lt;/li>
+&lt;li>Communication card&lt;/li>
+&lt;li>I/O interfacing cards&lt;/li>
+&lt;li>Computer&lt;/li>
+&lt;/ul>
+&lt;h2 id="experimental-design-and-justification">Experimental Design and Justification&lt;/h2>
+&lt;h2 id="precision-of-equipment-and-measurement-uncertainty">Precision of equipment and measurement uncertainty&lt;/h2>
+&lt;p>Software real-time measurements from RTDS, 50μs simulation step&lt;/p>
+&lt;h2 id="storage-of-experiment-data">Storage of experiment data&lt;/h2>
+&lt;p>Matlab files and Excel files&lt;/p></description></item></channel></rss>

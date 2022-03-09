@@ -1,0 +1,89 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ERIGrid 2.0 Test Cases – Test Case TC07</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc07/</link><description>Recent content in Test Case TC07 on ERIGrid 2.0 Test Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 09 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc07/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Test Specification TC7.TS01</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc07/tc7.ts01/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc07/tc7.ts01/</guid><description>
+&lt;h2 id="test-rationale">Test Rationale&lt;/h2>
+&lt;p>As the P2P Trading Coordinator is responsible for receiving the bids from the prosumers and send them back the internal price and is also in charge of managing the trading of energy with the retailer agent, this test seeks to evaluate the algorithm of the pricing module along with the performance of the communication module with the latter and the prosumers.&lt;/p>
+&lt;h2 id="specific-test-system">Specific Test System&lt;/h2>
+&lt;p>Community-based P2P architecture&lt;/p>
+&lt;p>P2P Trading Coordinator architecture&lt;/p>
+&lt;p>&lt;img src="../image1.png" alt="image1.png">
+&lt;img src="../image2.png" alt="image2.png">&lt;/p>
+&lt;h2 id="target-measures">Target measures&lt;/h2>
+&lt;ul>
+&lt;li>Price signal&lt;/li>
+&lt;li>Communication signals between agents&lt;/li>
+&lt;/ul>
+&lt;h2 id="input-and-output-parameters">Input and output parameters&lt;/h2>
+&lt;p>Input parameters&lt;/p>
+&lt;ul>
+&lt;li>Retailer’s price&lt;/li>
+&lt;li>Prosumer’s bids
+Output parameters&lt;/li>
+&lt;li>Internal price&lt;/li>
+&lt;/ul>
+&lt;h2 id="test-design">Test Design&lt;/h2>
+&lt;p>Optimise the internal price based on the Prosumer’s bids&lt;/p>
+&lt;h2 id="initial-system-state">Initial system state&lt;/h2>
+&lt;ul>
+&lt;li>Measurement of input parameters&lt;/li>
+&lt;li>Communication established&lt;/li>
+&lt;/ul>
+&lt;h2 id="evolution-of-system-state-and-test-signals">Evolution of system state and test signals&lt;/h2>
+&lt;p>Evaluation of the algorithm response up to the calculation of the final internal price&lt;/p>
+&lt;h2 id="other-parameters">Other parameters&lt;/h2>
+&lt;p>N/A&lt;/p>
+&lt;h2 id="temporal-resolution">Temporal resolution&lt;/h2>
+&lt;p>It will depend on the price signal sample, which can be from minutes to hour resolution.&lt;/p>
+&lt;h2 id="source-of-uncertainty">Source of uncertainty&lt;/h2>
+&lt;p>Price value, communication delay&lt;/p>
+&lt;h2 id="suspension-criteria--stopping-criteria">Suspension criteria / Stopping criteria&lt;/h2>
+&lt;p>Detection of abnormal price values, communication failure between agents&lt;/p>
+&lt;h2 id="mapping-to-research-infrastructure">Mapping to Research Infrastructure&lt;/h2></description></item><item><title>Docs: Test Specification TC7.TS02</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc07/tc7.ts02/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc07/tc7.ts02/</guid><description>
+&lt;h2 id="test-rationale">Test Rationale&lt;/h2>
+&lt;p>The test is to evaluate the performance of the decision-making process in the Bidding module, which outputs are final energy, price bids, and the control signals for the controllable electrical devices.&lt;/p>
+&lt;h2 id="specific-test-system">Specific Test System&lt;/h2>
+&lt;p>Prosumer architecture&lt;/p>
+&lt;p>&lt;img src="../image3.png" alt="image3.png">&lt;/p>
+&lt;h2 id="target-measures">Target measures&lt;/h2>
+&lt;ul>
+&lt;li>Power on the devices and losses on the network&lt;/li>
+&lt;li>Device status&lt;/li>
+&lt;li>Voltage signal on several nodes&lt;/li>
+&lt;li>Price signal&lt;/li>
+&lt;/ul>
+&lt;h2 id="input-and-output-parameters">Input and output parameters&lt;/h2>
+&lt;p>Input parameters&lt;/p>
+&lt;ul>
+&lt;li>Weather data&lt;/li>
+&lt;li>Historical load data&lt;/li>
+&lt;li>Grid frequency&lt;/li>
+&lt;li>Grid voltage&lt;/li>
+&lt;li>Current per phase&lt;/li>
+&lt;li>Internal prices&lt;/li>
+&lt;li>Load parameters
+Output parameters&lt;/li>
+&lt;li>Power setpoints per device&lt;/li>
+&lt;li>Price bids&lt;/li>
+&lt;/ul>
+&lt;h2 id="test-design">Test Design&lt;/h2>
+&lt;p>The test considers several consecutive load and generation variations based on the forecasted modules, as wells as price bidding variations. These are needed to adequately evaluate the capability of the operation and bidding modules to cope with these conditions.&lt;/p>
+&lt;h2 id="initial-system-state">Initial system state&lt;/h2>
+&lt;ul>
+&lt;li>Measurement of input parameters to perform a perfect forecast of RES and demand&lt;/li>
+&lt;li>Measurement of electrical parameters&lt;/li>
+&lt;li>The imbalance should be under 5%.&lt;/li>
+&lt;li>Optimal setpoints to the devices&lt;/li>
+&lt;/ul>
+&lt;h2 id="evolution-of-system-state-and-test-signals">Evolution of system state and test signals&lt;/h2>
+&lt;ul>
+&lt;li>Technical constraints (e.g., voltage level, losses, loading, unbalance) are verified as a result of the continuous connection of several controllable electrical devices.&lt;/li>
+&lt;li>Correction of the prosumers&amp;rsquo; bids based on their power consumption and generation forecast, as well as the fitting parameters of their devices&amp;rsquo; models&lt;/li>
+&lt;/ul>
+&lt;h2 id="other-parameters">Other parameters&lt;/h2>
+&lt;p>N/A&lt;/p>
+&lt;h2 id="temporal-resolution">Temporal resolution&lt;/h2>
+&lt;p>From several minutes to an hour&lt;/p>
+&lt;h2 id="source-of-uncertainty">Source of uncertainty&lt;/h2>
+&lt;p>Environmental conditions, consumers’ demand, EVs arrivals, the accuracy of measured signals, communication delay, RES and demand forecasting&lt;/p>
+&lt;h2 id="suspension-criteria--stopping-criteria">Suspension criteria / Stopping criteria&lt;/h2>
+&lt;p>Violation of the technical operating levels of the grid, i.e., voltage, losses, and thermal capacity
+A significant price deviation due to loss of communication&lt;/p>
+&lt;h2 id="mapping-to-research-infrastructure">Mapping to Research Infrastructure&lt;/h2></description></item></channel></rss>

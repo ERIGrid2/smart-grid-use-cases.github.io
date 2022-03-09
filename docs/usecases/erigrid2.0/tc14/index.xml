@@ -1,0 +1,56 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ERIGrid 2.0 Test Cases – Test Case TC14</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc14/</link><description>Recent content in Test Case TC14 on ERIGrid 2.0 Test Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 09 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc14/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Test Specification TC14.TS1</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc14/tc14.ts1/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc14/tc14.ts1/</guid><description>
+&lt;h2 id="test-rationale">Test Rationale&lt;/h2>
+&lt;p>The validation of the FFR and SI control allows to evaluate the ability of the converter to provide these functions, considering also the variability attributes (Frequency variation, power set-point, voltage and current harmonics, measures accuracy).&lt;/p>
+&lt;h2 id="specific-test-system">Specific Test System&lt;/h2>
+&lt;p>This TS requires a grid simulator and one power converter with the OuI.&lt;/p>
+&lt;h2 id="target-measures">Target measures&lt;/h2>
+&lt;p>Power and frequency measures time series of the power converter under test.&lt;/p>
+&lt;h2 id="input-and-output-parameters">Input and output parameters&lt;/h2>
+&lt;p>Frequency set-point, FCR, FFR and SI control mode ON/OFF, Power baseline.&lt;/p>
+&lt;h2 id="test-design">Test Design&lt;/h2>
+&lt;p>A simulation and/or a pure hardware experiment can be performed. A Pure hardware experiment is recommended but, with some assumption, also a simpler experiment can be performed.&lt;/p>
+&lt;p>The test design for verifying the PoI 1 is the following:&lt;/p>
+&lt;ul>
+&lt;li>Set the starting frequency to the grid simulator and the power baseline to the power converter.&lt;/li>
+&lt;li>Change the frequency (with a fixed ramp rate and amplitude) and log the power converter measurements.&lt;/li>
+&lt;li>Repeat the previous step until quality attributes will be achieved.&lt;/li>
+&lt;/ul>
+&lt;h2 id="initial-system-state">Initial system state&lt;/h2>
+&lt;p>Frequency: 50 Hz
+Power baseline: at least three different initial states; one with lower power exchange, one with medium power exchange and one with high power exchange.&lt;/p>
+&lt;h2 id="evolution-of-system-state-and-test-signals">Evolution of system state and test signals&lt;/h2>
+&lt;p>From 50 Hz up to 51.5 Hz, then down to 47.5 Hz with different step size (0.1 Hz, 0.25, 0.5 Hz).&lt;/p>
+&lt;h2 id="other-parameters">Other parameters&lt;/h2>
+&lt;p>See variability attributes.&lt;/p>
+&lt;h2 id="temporal-resolution">Temporal resolution&lt;/h2>
+&lt;p>At least 0.1 ms.&lt;/p>
+&lt;h2 id="source-of-uncertainty">Source of uncertainty&lt;/h2>
+&lt;p>Measures accuracy in case of non-simulation experiments.&lt;/p>
+&lt;h2 id="suspension-criteria--stopping-criteria">Suspension criteria / Stopping criteria&lt;/h2>
+&lt;p>Disconnection of the power converter.&lt;/p>
+&lt;h2 id="mapping-to-research-infrastructure">Mapping to Research Infrastructure&lt;/h2></description></item><item><title>Docs: Test Specification TC14.TS2</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc14/tc14.ts2/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc14/tc14.ts2/</guid><description>
+&lt;h2 id="test-rationale">Test Rationale&lt;/h2>
+&lt;p>The test aims to verify that power converters limit the ROCOF and the frequency deviation considering also the variability attributes (Frequency variation, voltage set-point, voltage and current harmonics, measures accuracy, interaction between each power converter providing FFR and SI and other components, grid parameter, communication and controller delay).&lt;/p>
+&lt;h2 id="specific-test-system">Specific Test System&lt;/h2>
+&lt;p>IEEE 9 bus&lt;/p>
+&lt;p>&lt;img src="../image7.png" alt="image7.png">&lt;/p>
+&lt;h2 id="target-measures">Target measures&lt;/h2>
+&lt;p>Power and frequency measures time series of each power converter.&lt;/p>
+&lt;h2 id="input-and-output-parameters">Input and output parameters&lt;/h2>
+&lt;p>Production and consumption profiles, FCR, FFR and SI control mode ON/OFF, power baseline, number of power converters, mechanical inertia.&lt;/p>
+&lt;h2 id="test-design">Test Design&lt;/h2>
+&lt;p>The test design is the same of the TC14.TS1 but consumption and non-controllable production will be change instead of frequency.&lt;/p>
+&lt;h2 id="initial-system-state">Initial system state&lt;/h2>
+&lt;p>Frequency: 50 Hz
+Power baseline: at least three different initial states; one with lower power exchange, one with medium power exchange and one with high power exchange.&lt;/p>
+&lt;h2 id="evolution-of-system-state-and-test-signals">Evolution of system state and test signals&lt;/h2>
+&lt;p>Consumption or production change in order to have the same frequency variation of the TC14.TS1.&lt;/p>
+&lt;h2 id="other-parameters">Other parameters&lt;/h2>
+&lt;p>See variability attributes.&lt;/p>
+&lt;h2 id="temporal-resolution">Temporal resolution&lt;/h2>
+&lt;p>At least 0.1 ms.&lt;/p>
+&lt;h2 id="source-of-uncertainty">Source of uncertainty&lt;/h2>
+&lt;p>Measures accuracy in case of non-simulation experiments.&lt;/p>
+&lt;h2 id="suspension-criteria--stopping-criteria">Suspension criteria / Stopping criteria&lt;/h2>
+&lt;p>Disconnection of one or more components and/or frequency instability.&lt;/p>
+&lt;h2 id="mapping-to-research-infrastructure">Mapping to Research Infrastructure&lt;/h2></description></item></channel></rss>

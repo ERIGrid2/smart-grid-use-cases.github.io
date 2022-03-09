@@ -1,0 +1,42 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ERIGrid 2.0 Test Cases – Test Case TC13</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc13/</link><description>Recent content in Test Case TC13 on ERIGrid 2.0 Test Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 09 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc13/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Test Specification 13.01</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc13/13.01/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc13/13.01/</guid><description>
+&lt;h2 id="test-rationale">Test Rationale&lt;/h2>
+&lt;p>The aim of the test is to verify the cost benefits and sustainability of large scale existing hydrogen storages for supporting and providing services to power systems.&lt;/p>
+&lt;h2 id="specific-test-system">Specific Test System&lt;/h2>
+&lt;p>The system uses in particular an existing empty storage for hydrogen such as an empty natural gas storage or salt mine.&lt;/p>
+&lt;h2 id="target-measures">Target measures&lt;/h2>
+&lt;p>The test is successfully passed if the hydrogen storage can meaningfully support the power system balancing and via this remain profitable and sustainable.&lt;/p>
+&lt;h2 id="input-and-output-parameters">Input and output parameters&lt;/h2>
+&lt;ul>
+&lt;li>Point of common coupling measurements&lt;/li>
+&lt;li>setpoints for control of the hydrogen storage&lt;/li>
+&lt;li>Reaction time of storage&lt;/li>
+&lt;li>Profit&lt;/li>
+&lt;/ul>
+&lt;h2 id="test-design">Test Design&lt;/h2>
+&lt;p>This test needs to run in non-real-time for several years or seasons depending on the reaction time.&lt;/p>
+&lt;h2 id="initial-system-state">Initial system state&lt;/h2>
+&lt;ul>
+&lt;li>Networks operating on nominal power, temperature and pressure&lt;/li>
+&lt;li>Storages are empty&lt;/li>
+&lt;/ul>
+&lt;h2 id="evolution-of-system-state-and-test-signals">Evolution of system state and test signals&lt;/h2>
+&lt;ul>
+&lt;li>The storages are filled based on the overproduced renewable generation&lt;/li>
+&lt;li>Based on price signals the storages react and balance the power system&lt;/li>
+&lt;/ul>
+&lt;h2 id="other-parameters">Other parameters&lt;/h2>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;h2 id="temporal-resolution">Temporal resolution&lt;/h2>
+&lt;p>Dynamic, variable step size (seconds?)&lt;/p>
+&lt;h2 id="source-of-uncertainty">Source of uncertainty&lt;/h2>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;h2 id="suspension-criteria--stopping-criteria">Suspension criteria / Stopping criteria&lt;/h2>
+&lt;ul>
+&lt;li>Critical violation of network operation constraints&lt;/li>
+&lt;li>Networks becoming unstable&lt;/li>
+&lt;/ul>
+&lt;h2 id="mapping-to-research-infrastructure">Mapping to Research Infrastructure&lt;/h2></description></item></channel></rss>

@@ -1,0 +1,59 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ERIGrid 2.0 Test Cases – Test Case TC20</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc20/</link><description>Recent content in Test Case TC20 on ERIGrid 2.0 Test Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 09 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc20/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Test Specification 20.1</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc20/20.1/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc20/20.1/</guid><description>
+&lt;h2 id="test-rationale">Test Rationale&lt;/h2>
+&lt;p>In this Test Scenario, a PV plant is tested for interoperability with two distinct aggregation infrastructures. The plant may start out in one of the networks and therefore already be known as interoperable to the initial platform prior to transfer. Otherwise, the interoperability has to be proven for both infrastructures independently. The PV plant is governed by a programmable automation control system that is scalable and fully integrated with all required data acquisition, analytical and control logic functionalities to demonstrate advanced and reliable PV system operations. The system is equipped with smart inverters and should be capable of failure diagnosis, communication with the aggregation platform (Modbus TCP), as well as storage and ancillary services compliant to the grid code. The two networks should differ in their share of Renewable Energy Sources (RES) and medium voltages in order to validate the systems’ extensive interoperability.&lt;/p>
+&lt;h2 id="specific-test-system">Specific Test System&lt;/h2>
+&lt;p>The test system consists of the PV system and the separate (simulated) aggregation infrastructures to be qualified for interoperability. Additional generators and reactive power controllable equipment at different voltage levels are connected to each network. The test is either conducted with geographically distributed HIL or within a simulation.&lt;/p>
+&lt;h2 id="target-measures">Target measures&lt;/h2>
+&lt;p>Which values are monitored and which timeframes are acceptable depend on the system functionality under assessment. During congestion management, the PV operation should respect a reserves availability of at least 20%, as well as the direct voltage operating regions of the grid. If not linked to specific grid restrictions, there should be no significant performance variance for connection to the two distinct networks. All status reports and schedules must be communicated accurately and timely between the control systems.&lt;/p>
+&lt;h2 id="input-and-output-parameters">Input and output parameters&lt;/h2>
+&lt;p>Uncontrollable input parameters:&lt;/p>
+&lt;ul>
+&lt;li>Grid topology&lt;/li>
+&lt;li>Generation and load profiles of other grid participants&lt;/li>
+&lt;/ul>
+&lt;p>Controllable input parameters:&lt;/p>
+&lt;ul>
+&lt;li>PV system controllers parameters&lt;/li>
+&lt;li>Voltage set-point&lt;/li>
+&lt;li>Frequency set-point&lt;/li>
+&lt;li>Load value&lt;/li>
+&lt;/ul>
+&lt;p>Output parameters:&lt;/p>
+&lt;ul>
+&lt;li>Communication acknowledgements&lt;/li>
+&lt;li>Node voltages&lt;/li>
+&lt;li>Power losses&lt;/li>
+&lt;/ul>
+&lt;h2 id="test-design">Test Design&lt;/h2>
+&lt;p>Testing the functionalities in their operation constitutes a practical assessment for the interoperability of the PV control system with each aggregation platform. The PV system has to fulfill ancillary services and reporting duties towards the aggregation management. It has to process and implement received activation plans. The evaluation of the system response can be done within a specific flexibility redistribution scenario. To this end, a congestion will be simulated for the connected power system. The information exchanged between the control systems during the reallocation process will be protocolled on dedicated communication channels.&lt;/p>
+&lt;h2 id="initial-system-state">Initial system state&lt;/h2>
+&lt;p>The PV system is connected to one of the networks. The communication channels to the associated aggregation platform are set up. The initial power flow conditions are:&lt;/p>
+&lt;ul>
+&lt;li>The voltage/frequency value (output) matches the voltage/frequency set-point.&lt;/li>
+&lt;li>The consumption of the loads should be at least 20% of the maximum consumption.&lt;/li>
+&lt;li>The combination of the RES units should provide at least 20% of their nominal power.&lt;/li>
+&lt;/ul>
+&lt;h2 id="evolution-of-system-state-and-test-signals">Evolution of system state and test signals&lt;/h2>
+&lt;p>At first, the power system is sufficiently balanced, the voltage and frequency are nominal, and the PV system reserves are unengaged. Then a congestion emerges, to which the aggregation platform responds by requesting the activation of the PV reserves, alongside those of some additional RES of the network. For testing purposes, these other resources’ contribution to the congestion management is marginalized. The PV system control regulates the plant’s production and storage release to meet the grid’s demands. It incorporates subsequent updates by the platform on these demands to take further disturbances and the activity of the other RES into account, and reports on its current status and energy supply. The exchange concludes with the platform’s acknowledgement that the congestion was successfully mitigated by the increased production rate. Network properties such as voltage, frequency and load at relevant sections are monitored during the entire process to verify grid integrity at all times. Further exchanges not covered by the functionalities involved in congestion management can be tested separately and directly (e.g., scheduling or failure reporting).&lt;/p>
+&lt;h2 id="other-parameters">Other parameters&lt;/h2>
+&lt;p>N/A&lt;/p>
+&lt;h2 id="temporal-resolution">Temporal resolution&lt;/h2>
+&lt;p>The simulated part of the test proceeds continuously, with time step sizes depending on the software experiment:&lt;/p>
+&lt;ul>
+&lt;li>Time constants inside SuT in-between 50 μs and 5 s&lt;/li>
+&lt;li>Monitoring quantities with a maximum sampling time of 0.1 sec.&lt;/li>
+&lt;/ul>
+&lt;h2 id="source-of-uncertainty">Source of uncertainty&lt;/h2>
+&lt;ul>
+&lt;li>Grid parameters variability (i.e., resistance/inductance ratio)&lt;/li>
+&lt;li>Timing deviations, communication delays by other participants&lt;/li>
+&lt;li>Consumers’ demand&lt;/li>
+&lt;li>Environmental conditions&lt;/li>
+&lt;/ul>
+&lt;h2 id="suspension-criteria--stopping-criteria">Suspension criteria / Stopping criteria&lt;/h2>
+&lt;ul>
+&lt;li>Successful congestion mitigation and conclusion of all test runs for PV system functionalities&lt;/li>
+&lt;li>Each functionality has a predetermined timeframe to operate successfully&lt;/li>
+&lt;li>Violation of grid integrity&lt;/li>
+&lt;/ul>
+&lt;h2 id="mapping-to-research-infrastructure">Mapping to Research Infrastructure&lt;/h2></description></item></channel></rss>

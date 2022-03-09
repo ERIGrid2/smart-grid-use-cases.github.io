@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ERIGrid 2.0 Test Cases – Test Case TC02</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc02/</link><description>Recent content in Test Case TC02 on ERIGrid 2.0 Test Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 09 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc02/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Test Specification 02.01</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc02/02.01/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc02/02.01/</guid><description>
+&lt;h2 id="test-rationale">Test Rationale&lt;/h2>
+&lt;p>N/A&lt;/p>
+&lt;h2 id="specific-test-system">Specific Test System&lt;/h2>
+&lt;p>Laboratory setup&lt;/p>
+&lt;h2 id="target-measures">Target measures&lt;/h2>
+&lt;p>Inverter power injection, load voltage and frequency, inverter currents&lt;/p>
+&lt;h2 id="input-and-output-parameters">Input and output parameters&lt;/h2>
+&lt;p>Input:&lt;/p>
+&lt;ul>
+&lt;li>Load&lt;/li>
+&lt;li>Inverter power injection set-points&lt;/li>
+&lt;li>Grid conditions
+Output:&lt;/li>
+&lt;li>Power, voltage, current and frequency measurements&lt;/li>
+&lt;/ul>
+&lt;h2 id="test-design">Test Design&lt;/h2>
+&lt;ol>
+&lt;li>Operate multiple inverters in parallel&lt;/li>
+&lt;li>Perform a network fault when the microgrid operates either in islanded (non-interconnected) mode or in grid-connected mode&lt;/li>
+&lt;li>Save the experimental results&lt;/li>
+&lt;/ol>
+&lt;h2 id="initial-system-state">Initial system state&lt;/h2>
+&lt;ul>
+&lt;li>Inverter controllers enabled&lt;/li>
+&lt;li>Hardware or simulated network and devices up and running&lt;/li>
+&lt;li>Computer displaying and saving data&lt;/li>
+&lt;/ul>
+&lt;h2 id="evolution-of-system-state-and-test-signals">Evolution of system state and test signals&lt;/h2>
+&lt;p>The system goes from normal operation (operation close to nominal voltage and frequency) to operation under grid faults, to test the inverter control algorithms&lt;/p>
+&lt;h2 id="other-parameters">Other parameters&lt;/h2>
+&lt;p>N/A&lt;/p>
+&lt;h2 id="temporal-resolution">Temporal resolution&lt;/h2>
+&lt;p>N/A&lt;/p>
+&lt;h2 id="source-of-uncertainty">Source of uncertainty&lt;/h2>
+&lt;p>Impedance of load and lines, inverter sensors operation&lt;/p>
+&lt;h2 id="suspension-criteria--stopping-criteria">Suspension criteria / Stopping criteria&lt;/h2>
+&lt;p>Abnormal current/ power injections from inverters&lt;/p>
+&lt;h2 id="mapping-to-research-infrastructure">Mapping to Research Infrastructure&lt;/h2></description></item></channel></rss>

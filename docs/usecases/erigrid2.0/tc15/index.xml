@@ -1,0 +1,54 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ERIGrid 2.0 Test Cases – Test Case TC15</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc15/</link><description>Recent content in Test Case TC15 on ERIGrid 2.0 Test Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 09 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc15/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Test Specification TC15.01</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc15/tc15.01/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc15/tc15.01/</guid><description>
+&lt;h2 id="test-rationale">Test Rationale&lt;/h2>
+&lt;p>To validate the successful operation of the system when using hierarchical control and the effective implementation of the communication scheme when using hardware MicroGrid Central Controller in real conditions&lt;/p>
+&lt;h2 id="specific-test-system">Specific Test System&lt;/h2>
+&lt;h2 id="target-measures">Target measures&lt;/h2>
+&lt;ul>
+&lt;li>Active and reactive power of loads&lt;/li>
+&lt;li>Active and reactive power of PVs and BESS&lt;/li>
+&lt;li>SoC of BESS&lt;/li>
+&lt;li>Tap position of the OLTC&lt;/li>
+&lt;li>Bus voltages&lt;/li>
+&lt;/ul>
+&lt;h2 id="input-and-output-parameters">Input and output parameters&lt;/h2>
+&lt;p>Input to CVC:&lt;/p>
+&lt;ul>
+&lt;li>Active and reactive power of loads&lt;/li>
+&lt;li>Active power of PVs&lt;/li>
+&lt;li>SoC of BESS&lt;/li>
+&lt;li>Tap position of the OLTC
+Output of the CVC:&lt;/li>
+&lt;li>Active and reactive power of the BESS&lt;/li>
+&lt;li>Reactive power of the PV Inverters&lt;/li>
+&lt;li>Tap position of the OLTC&lt;/li>
+&lt;/ul>
+&lt;h2 id="test-design">Test Design&lt;/h2>
+&lt;ol>
+&lt;li>Initialization of the voltage control algorithm&lt;/li>
+&lt;li>Reception of input parameters from the network via the MGCC&lt;/li>
+&lt;li>Solution of the optimization problem&lt;/li>
+&lt;li>Dispatch of optimal set points to the voltage regulating devices via the MGCC&lt;/li>
+&lt;li>Save the simulation results for each iteration&lt;/li>
+&lt;li>Repeat steps 2 to 5 in pre-configured intervals&lt;/li>
+&lt;/ol>
+&lt;h2 id="initial-system-state">Initial system state&lt;/h2>
+&lt;ul>
+&lt;li>Power system in steady-state&lt;/li>
+&lt;li>Controller up and running&lt;/li>
+&lt;li>Communications established&lt;/li>
+&lt;li>OLTC Controller up and running&lt;/li>
+&lt;li>DERStorage Controller up and running&lt;/li>
+&lt;li>DERGen Controller up and running&lt;/li>
+&lt;li>Optimal power flow solution achieved&lt;/li>
+&lt;/ul>
+&lt;h2 id="evolution-of-system-state-and-test-signals">Evolution of system state and test signals&lt;/h2>
+&lt;p>Mitigation of voltage deviations&lt;/p>
+&lt;h2 id="other-parameters">Other parameters&lt;/h2>
+&lt;p>N/A&lt;/p>
+&lt;h2 id="temporal-resolution">Temporal resolution&lt;/h2>
+&lt;p>N/A&lt;/p>
+&lt;h2 id="source-of-uncertainty">Source of uncertainty&lt;/h2>
+&lt;p>Convergence of the optimization algorithm, communication Interfaces and delays&lt;/p>
+&lt;h2 id="suspension-criteria--stopping-criteria">Suspension criteria / Stopping criteria&lt;/h2>
+&lt;p>Communication failures, abnormal system conditions&lt;/p>
+&lt;h2 id="mapping-to-research-infrastructure">Mapping to Research Infrastructure&lt;/h2></description></item></channel></rss>

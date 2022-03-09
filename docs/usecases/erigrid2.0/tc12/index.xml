@@ -1,0 +1,85 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ERIGrid 2.0 Test Cases – Test Case TC12</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc12/</link><description>Recent content in Test Case TC12 on ERIGrid 2.0 Test Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 09 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc12/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Test Specification TC12.TS01</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc12/tc12.ts01/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc12/tc12.ts01/</guid><description>
+&lt;h2 id="test-rationale">Test Rationale&lt;/h2>
+&lt;p>This test aims at self-consumption of excess power generated from distributed renewable power generators (i.e., the rooftop PV generators). The excess power is fed into the local heating network. The local use of excess power helps mitigate problems in the electric distribution network, such as reversed power flows, high loading of equipment and voltage band violations. On the other side, distributed infeed into the local heating network might cause problems due to reversed mass flows, fluctuating supply temperatures or differential pressure problems.&lt;/p>
+&lt;p>Electric boilers are used as power-to-heat appliances. They consist of an electric heater, for the conversion of power to heat, and a thermal energy storage, for the (short-term) storage of generated heat.
+The operation of the electric boilers and storage units are governed by simple proportional controllers.&lt;/p>
+&lt;h2 id="specific-test-system">Specific Test System&lt;/h2>
+&lt;p>This test case uses simple proportional controllers with fixed operational parameters (e.g., temperature thresholds) to calculate new setpoints for the electric boilers. The district heating network/electric boiler simulation send actual power consumption of electric boilers to the electric network simulation.&lt;/p>
+&lt;p>A detailed description of the controller scheme is given in: &lt;a href="https://doi.org/10.1016/j.energy.2020.118540">https://doi.org/10.1016/j.energy.2020.118540&lt;/a>&lt;/p>
+&lt;h2 id="target-measures">Target measures&lt;/h2>
+&lt;p>The test is successfully passed if power flows to the external network are reduced compared to a scenario without power-to-heat. Simultaneously, power import into the network is not allowed to increase by more than 1%. Moreover, relevant network constraints need to be met.&lt;/p>
+&lt;h2 id="input-and-output-parameters">Input and output parameters&lt;/h2>
+&lt;ul>
+&lt;li>P&amp;lt;sub&amp;gt;EBSet&amp;lt;/sub&amp;gt; … electric boiler setpoint for nominal heat flow&lt;/li>
+&lt;li>Q&amp;lt;sub&amp;gt;EBSet&amp;lt;/sub&amp;gt; … electric boiler setpoint for nominal power consumption&lt;/li>
+&lt;li>Q&amp;lt;sub&amp;gt;EB&amp;lt;/sub&amp;gt; … electric boiler heat flow&lt;/li>
+&lt;li>P&amp;lt;sub&amp;gt;EB&amp;lt;/sub&amp;gt; … electric boiler power consumption&lt;/li>
+&lt;li>T&amp;lt;sub&amp;gt;EB&amp;lt;/sub&amp;gt; … thermal storage temperature&lt;/li>
+&lt;/ul>
+&lt;h2 id="test-design">Test Design&lt;/h2>
+&lt;p>This test needs to run for an entire year to account for the daily/seasonal variations of loads/generators and the impact of the predictive control, as it usually plans ahead several hours/days.&lt;/p>
+&lt;h2 id="initial-system-state">Initial system state&lt;/h2>
+&lt;ul>
+&lt;li>district heating pipes have nominal temperatures&lt;/li>
+&lt;li>thermal storages are empty, i.e., have nominal return temperature of district heating network&lt;/li>
+&lt;li>electric boilers not running&lt;/li>
+&lt;/ul>
+&lt;h2 id="evolution-of-system-state-and-test-signals">Evolution of system state and test signals&lt;/h2>
+&lt;ul>
+&lt;li>Every 15 minutes the electric boiler controllers receive current heat generation and heat discharge from respective electric boilers, based on which new setpoints are calculated.&lt;/li>
+&lt;li>Every 15 minutes the electric network receives current power consumption from electric boilers&lt;/li>
+&lt;li>Except for the previous, subsystems are independent from each other.&lt;/li>
+&lt;/ul>
+&lt;h2 id="other-parameters">Other parameters&lt;/h2>
+&lt;p>None&lt;/p>
+&lt;h2 id="temporal-resolution">Temporal resolution&lt;/h2>
+&lt;p>Local heating and electric boilers:&lt;/p>
+&lt;ul>
+&lt;li>dynamic, variable step size (typically order of seconds)&lt;/li>
+&lt;/ul>
+&lt;p>Electric network and predictive controllers:&lt;/p>
+&lt;ul>
+&lt;li>15 minutes&lt;/li>
+&lt;/ul>
+&lt;h2 id="source-of-uncertainty">Source of uncertainty&lt;/h2>
+&lt;p>None&lt;/p>
+&lt;h2 id="suspension-criteria--stopping-criteria">Suspension criteria / Stopping criteria&lt;/h2>
+&lt;ul>
+&lt;li>critical violation of network operation constraints (freezing/boiling water in any part of district heating network, etc.)&lt;/li>
+&lt;li>predictive controller unable to predict next step (infeasible model)&lt;/li>
+&lt;/ul>
+&lt;h2 id="mapping-to-research-infrastructure">Mapping to Research Infrastructure&lt;/h2></description></item><item><title>Docs: Test Specification TC12.TS02</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc12/tc12.ts02/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc12/tc12.ts02/</guid><description>
+&lt;h2 id="test-rationale">Test Rationale&lt;/h2>
+&lt;p>This test is conceptionally similar to TC12.TS01. The difference is that for planning the operation of the storage units and the electric heaters a predictive controller is used. The aim of the controller is to minimize negative residual load of the electric network. To enable this planning, negative residual load in the electric as well as heat demand in the heat network need to be known/predicted. This test assumes perfect knowledge of these time-series data and, thus, does not focus on the quality of predictions.&lt;/p>
+&lt;h2 id="specific-test-system">Specific Test System&lt;/h2>
+&lt;p>The controller uses heat demand and excess power predictions together with current storage temperatures, electric boiler power consumption and heat discharge to calculate new setpoints for the electric boilers. The district heating network/electric boiler sim-ulation send actual power consumption of electric boilers to elec-tric network simulation.&lt;/p>
+&lt;p>This test case uses an advanced model-predictive control scheme for activating the electric boilers and storage units. A detailed de-scription of the controller scheme is given in:
+&lt;a href="https://doi.org/10.1016/j.energy.2020.118540">https://doi.org/10.1016/j.energy.2020.118540&lt;/a>&lt;/p>
+&lt;h2 id="target-measures">Target measures&lt;/h2>
+&lt;p>same as TC12.TS01&lt;/p>
+&lt;h2 id="input-and-output-parameters">Input and output parameters&lt;/h2>
+&lt;ul>
+&lt;li>Q&amp;lt;sub&amp;gt;dem&amp;lt;/sub&amp;gt; … predicted heat demand&lt;/li>
+&lt;li>P&amp;lt;sub&amp;gt;ex&amp;lt;/sub&amp;gt; … predicted power demand&lt;/li>
+&lt;li>otherwise same as TC12.TS01&lt;/li>
+&lt;/ul>
+&lt;h2 id="test-design">Test Design&lt;/h2>
+&lt;p>The electric boilers are activated with the help of a predictive control approach, which enables a planning of discharging and charging the thermal storage units with regards to excess power availability. For instance, thermal storages can be emptied before times with high excess power but low heat demand and thus makes the use of the electric heater still possible.&lt;/p>
+&lt;p>This test needs to run for an entire year to cover the daily/seasonal variations of loads/generators and the impact of the predictive control, as it usually has planning horizons of multiple hours/days.&lt;/p>
+&lt;h2 id="initial-system-state">Initial system state&lt;/h2>
+&lt;p>same as TC12.TS01&lt;/p>
+&lt;h2 id="evolution-of-system-state-and-test-signals">Evolution of system state and test signals&lt;/h2>
+&lt;ul>
+&lt;li>Every 15 minutes the electric boiler controllers receive current heat generation and heat discharge from respective electric boilers together with predicted residual load of electric network and heat demand of district heating network. Thus, electric boilers receive new setpoints for heat generation &amp;amp; heat discharge from model predictive controllers.&lt;/li>
+&lt;li>Every 15 minutes electric network receives current power consumption from electric boilers&lt;/li>
+&lt;li>Otherwise subsystems are independent from each other.&lt;/li>
+&lt;/ul>
+&lt;h2 id="other-parameters">Other parameters&lt;/h2>
+&lt;p>None&lt;/p>
+&lt;h2 id="temporal-resolution">Temporal resolution&lt;/h2>
+&lt;p>same as TC12.TS01&lt;/p>
+&lt;h2 id="source-of-uncertainty">Source of uncertainty&lt;/h2>
+&lt;p>None&lt;/p>
+&lt;h2 id="suspension-criteria--stopping-criteria">Suspension criteria / Stopping criteria&lt;/h2>
+&lt;p>same as TC12.TS01&lt;/p>
+&lt;h2 id="mapping-to-research-infrastructure">Mapping to Research Infrastructure&lt;/h2></description></item></channel></rss>

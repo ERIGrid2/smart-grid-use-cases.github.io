@@ -1,0 +1,106 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ERIGrid 2.0 Test Cases – Test Case TC08</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc08/</link><description>Recent content in Test Case TC08 on ERIGrid 2.0 Test Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 09 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc08/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Test Specification TC8.TS01</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc08/tc8.ts01/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc08/tc8.ts01/</guid><description>
+&lt;h2 id="test-rationale">Test Rationale&lt;/h2>
+&lt;p>The test allows us to evaluate the ability of a MAS and PV systems to provide the functionalities of voltage control when the variation of grid voltage happens. How the agents receive measurement signals, communicate with each other, process received signals, and return the output controlling signals should be evaluated. Moreover, the performance of PV systems in responding to the controlling signals imposed by their respective agents should also be taken into account and to what extent they meet the reactive power exchange capability characteristic.&lt;/p>
+&lt;h2 id="specific-test-system">Specific Test System&lt;/h2>
+&lt;p>&lt;img src="../image4.png" alt="image4.png">&lt;/p>
+&lt;h2 id="target-measures">Target measures&lt;/h2>
+&lt;ul>
+&lt;li>Communication signals between agents&lt;/li>
+&lt;li>Active and reactive power outputs of PV inverters&lt;/li>
+&lt;li>Voltage on different nodes&lt;/li>
+&lt;/ul>
+&lt;h2 id="input-and-output-parameters">Input and output parameters&lt;/h2>
+&lt;p>Input parameters:&lt;/p>
+&lt;ul>
+&lt;li>PV active and reactive output powers&lt;/li>
+&lt;li>Grid voltage&lt;/li>
+&lt;li>Load consumption
+Output parameters:&lt;/li>
+&lt;li>Signals exchanged between agents&lt;/li>
+&lt;li>PV active and reactive output powers&lt;/li>
+&lt;li>Grid voltage&lt;/li>
+&lt;/ul>
+&lt;h2 id="test-design">Test Design&lt;/h2>
+&lt;p>Vary the PV output power and also load consumption until the voltage deviations at several locations in the studied grid go beyond the permissible ranges&lt;/p>
+&lt;h2 id="initial-system-state">Initial system state&lt;/h2>
+&lt;p>Voltages at all nodes in the grids are closed to 1 p.u.&lt;/p>
+&lt;h2 id="evolution-of-system-state-and-test-signals">Evolution of system state and test signals&lt;/h2>
+&lt;p>The voltages on various nodes increase or decrease as a result of the variation of PV production and load consumption&lt;/p>
+&lt;h2 id="other-parameters">Other parameters&lt;/h2>
+&lt;p>n/a&lt;/p>
+&lt;h2 id="temporal-resolution">Temporal resolution&lt;/h2>
+&lt;p>ms to seconds&lt;/p>
+&lt;h2 id="source-of-uncertainty">Source of uncertainty&lt;/h2>
+&lt;ul>
+&lt;li>Accuracy of measuring units&lt;/li>
+&lt;li>Communication delay&lt;/li>
+&lt;/ul>
+&lt;h2 id="suspension-criteria--stopping-criteria">Suspension criteria / Stopping criteria&lt;/h2>
+&lt;p>Detection of abnormal operating conditions, communication failure of MAS&lt;/p>
+&lt;h2 id="mapping-to-research-infrastructure">Mapping to Research Infrastructure&lt;/h2></description></item><item><title>Docs: Test Specification TC8.TS02</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc08/tc8.ts02/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc08/tc8.ts02/</guid><description>
+&lt;h2 id="test-rationale">Test Rationale&lt;/h2>
+&lt;p>The test is to evaluate the performance of the MAS-based distributed voltage control scheme to maintain the grid voltage within the permissible ranges imposed by the grid regulations under different operating conditions such as high PV production with light loading, low PV production with heavy loading.&lt;/p>
+&lt;h2 id="specific-test-system">Specific Test System&lt;/h2>
+&lt;p>&lt;img src="../image4.png" alt="image4.png">&lt;/p>
+&lt;h2 id="target-measures">Target measures&lt;/h2>
+&lt;ul>
+&lt;li>Voltage deviation&lt;/li>
+&lt;li>PV curtailment&lt;/li>
+&lt;li>Load curtailment&lt;/li>
+&lt;li>Losses&lt;/li>
+&lt;/ul>
+&lt;h2 id="input-and-output-parameters">Input and output parameters&lt;/h2>
+&lt;p>Input parameters&lt;/p>
+&lt;ul>
+&lt;li>Grid frequency&lt;/li>
+&lt;li>Grid voltage&lt;/li>
+&lt;li>PV penetration level&lt;/li>
+&lt;li>Solar irradiance&lt;/li>
+&lt;li>Load consumption
+Output parameters&lt;/li>
+&lt;li>Grid voltage deviation&lt;/li>
+&lt;li>PV inverter AC terminal current and voltage (to derive PV active and reactive power outputs)&lt;/li>
+&lt;/ul>
+&lt;h2 id="test-design">Test Design&lt;/h2>
+&lt;ul>
+&lt;li>First, the distributed voltage control algorithm (FuT) is deactivated. PV production and load consumption are varied in order to create unacceptable voltage deviation scenarios. The patterns of PV production, load consumption and grid voltage are recorded.&lt;/li>
+&lt;li>Then, the FuT is activated. Repeat the variation of PV production and load consumption according to those patterns recorded in the first step in order to evaluate the performance of the FuT.&lt;/li>
+&lt;/ul>
+&lt;h2 id="initial-system-state">Initial system state&lt;/h2>
+&lt;ul>
+&lt;li>The percentage of PV penetration is 20%&lt;/li>
+&lt;li>The nominal grid voltage is 400 V&lt;/li>
+&lt;li>The nominal grid frequency is 50 Hz&lt;/li>
+&lt;li>PV systems are operating at most at 50% of their inverter rated powers&lt;/li>
+&lt;li>Load consumption is at 50% of the peak value&lt;/li>
+&lt;li>Communication between agents is established&lt;/li>
+&lt;/ul>
+&lt;h2 id="evolution-of-system-state-and-test-signals">Evolution of system state and test signals&lt;/h2>
+&lt;p>Vary the load consumption and PV production according to the daily load curves and solar irradiance. In particular:&lt;/p>
+&lt;ul>
+&lt;li>Load curves: for different types of days, for instance:
+&lt;ul>
+&lt;li>Working days&lt;/li>
+&lt;li>Weekends&lt;/li>
+&lt;li>Holidays&lt;/li>
+&lt;li>Summer and winter days&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>PV penetration ratios
+&lt;ul>
+&lt;li>From 20% to 100%&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="other-parameters">Other parameters&lt;/h2>
+&lt;p>n/a&lt;/p>
+&lt;h2 id="temporal-resolution">Temporal resolution&lt;/h2>
+&lt;p>ms to seconds&lt;/p>
+&lt;h2 id="source-of-uncertainty">Source of uncertainty&lt;/h2>
+&lt;ul>
+&lt;li>Accuracy of measuring units&lt;/li>
+&lt;li>Communication delay&lt;/li>
+&lt;/ul>
+&lt;h2 id="suspension-criteria--stopping-criteria">Suspension criteria / Stopping criteria&lt;/h2>
+&lt;p>Detection of abnormal operating conditions, communication failure of MAS&lt;/p>
+&lt;h2 id="mapping-to-research-infrastructure">Mapping to Research Infrastructure&lt;/h2></description></item></channel></rss>

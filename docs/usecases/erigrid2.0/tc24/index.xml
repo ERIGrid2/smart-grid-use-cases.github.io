@@ -1,0 +1,30 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ERIGrid 2.0 Test Cases – Test Case TC24</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc24/</link><description>Recent content in Test Case TC24 on ERIGrid 2.0 Test Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 09 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc24/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Test Specification 24.01</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc24/24.01/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc24/24.01/</guid><description>
+&lt;h2 id="test-rationale">Test Rationale&lt;/h2>
+&lt;p>The aim is to investigate through the interoperability validation tests, the interaction and information exchange between the involved actors for a flexibility activation event. This event will be triggered by a local node voltage disturbance (functional disruption) and followed by a consequent flexibility request.&lt;/p>
+&lt;h2 id="specific-test-system">Specific Test System&lt;/h2>
+&lt;h2 id="target-measures">Target measures&lt;/h2>
+&lt;p>In the system under test, the interoperability test will be in the simple “pass/fail” form. The time the system requires to restore the voltage back to the desirable deviation levels is evaluated, i.e., the time that the system takes to respond to the voltage support mechanism after a disturbance in the power grid.
+If this time = ∞ &amp;ndash;&amp;gt; fail, else &amp;ndash;&amp;gt; pass&lt;/p>
+&lt;h2 id="input-and-output-parameters">Input and output parameters&lt;/h2>
+&lt;ul>
+&lt;li>Internal RTU time delay&lt;/li>
+&lt;li>Reference Voltage&lt;/li>
+&lt;li>Admitted Voltage Deviation&lt;/li>
+&lt;li>Time required for Flex to activate&lt;/li>
+&lt;li>Available flexibility capacity&lt;/li>
+&lt;li>Maximum activation time for flexibility&lt;/li>
+&lt;/ul>
+&lt;h2 id="test-design">Test Design&lt;/h2>
+&lt;p>A simulation period of X minutes long, during which a functional disruption is introduced in the system. This disruption causes a voltage disturbance and results in a flexibility activation request to restore the system back to acceptable conditions. The connection and communication between all the involved actors in the activation chain is evaluated under an interoperability point of view.&lt;/p>
+&lt;h2 id="initial-system-state">Initial system state&lt;/h2>
+&lt;p>Initially the system service is operating “as usual”. The grid loads are at their nominal values and the grid is functioning without disruptions. As far as the communication is concerned, we assume that the communication links between the various actors are 100% reliable.&lt;/p>
+&lt;h2 id="evolution-of-system-state-and-test-signals">Evolution of system state and test signals&lt;/h2>
+&lt;p>The networked is continuously monitored by the SCADA. A voltage disruption (disturbance) is introduced at a specific node. The system (through the DSO) asks for flexibility so as to restore the voltage in a reasonable time period. The interconnection between the whole activation chain and all necessary actors is studied and assessed under an interoperability point of view.&lt;/p>
+&lt;h2 id="other-parameters">Other parameters&lt;/h2>
+&lt;h2 id="temporal-resolution">Temporal resolution&lt;/h2>
+&lt;p>To be determined&lt;/p>
+&lt;h2 id="source-of-uncertainty">Source of uncertainty&lt;/h2>
+&lt;p>Only a deterministic type of disruption event is introduced.&lt;/p>
+&lt;h2 id="suspension-criteria--stopping-criteria">Suspension criteria / Stopping criteria&lt;/h2>
+&lt;p>30 minutes or permanent loss of communication and/or grid connection&lt;/p>
+&lt;h2 id="mapping-to-research-infrastructure">Mapping to Research Infrastructure&lt;/h2></description></item></channel></rss>

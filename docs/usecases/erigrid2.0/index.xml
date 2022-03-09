@@ -1,5 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ERIGrid 2.0 Test Cases – ERIGrid2.0</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/</link><description>Recent content in ERIGrid2.0 on ERIGrid 2.0 Test Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 21 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: TC03</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc03/</guid><description/></item><item><title>Docs: TC17</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc17/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc17/</guid><description/></item><item><title>Docs: TC23</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc23/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc23/</guid><description/></item><item><title>Docs: Test Case TC01</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc01/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc01/</guid><description>
-&lt;h1 id="test-case-01-control-of-voltage-with-an-on-load-tap-change-controller">Test Case 01: Control of voltage with an on-load tap change controller&lt;/h1>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ERIGrid 2.0 Test Cases – ERIGrid2.0</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/</link><description>Recent content in ERIGrid2.0 on ERIGrid 2.0 Test Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 09 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: TC03</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc03/</guid><description/></item><item><title>Docs: TC17</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc17/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc17/</guid><description/></item><item><title>Docs: TC23</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc23/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc23/</guid><description/></item><item><title>Docs: Test Case TC01</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc01/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc01/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>OCT&lt;/p>
@@ -63,8 +62,7 @@ Characterize the OLTC operating performance in terms of loss reduction and hosti
 &lt;li>Maintain voltages within the ±10% specified limit.&lt;/li>
 &lt;/ul>
 &lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2>
-&lt;p>The different tests will create situations where there is a significant variability in voltage in the test circuit setup. The PoI will be met when it is verified that the variability is controlled, and the voltage maintained within the limits set out by the corresponding standards.&lt;/p></description></item><item><title>Docs: Test Case TC02</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc02/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc02/</guid><description>
-&lt;h1 id="test-case-02-complying-with-the-fault-ride-through-frt-requirements-in-inverter-based-droop-controlled-microgrids">Test Case 02: Complying with the fault-ride-through (FRT) requirements in inverter-based droop-controlled microgrids&lt;/h1>
+&lt;p>The different tests will create situations where there is a significant variability in voltage in the test circuit setup. The PoI will be met when it is verified that the variability is controlled, and the voltage maintained within the limits set out by the corresponding standards.&lt;/p></description></item><item><title>Docs: Test Case TC02</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc02/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc02/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>Alexandros G.Paspatis, Alkistis Kontou&lt;/p>
@@ -114,8 +112,7 @@ Characterize the OLTC operating performance in terms of loss reduction and hosti
 &lt;li>Inverter currents below their maximum threshold Imax&lt;/li>
 &lt;/ol>
 &lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2>
-&lt;p>The major ancillary services required from inverter-interfaced DERs during i) normal operation (droop control) and ii) during grid faulty operation (fault-ride-through) will be investigated through a single test where the inverters are equipped with the appropriate smart control algorithms.&lt;/p></description></item><item><title>Docs: Test Case TC04</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc04/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc04/</guid><description>
-&lt;h1 id="test-case-4-investigation-of-different-voltage-control-techniques-for-inverter-interfaced-ders-in-microgrids">Test Case 4: Investigation of different voltage control techniques for inverter-interfaced DERs in microgrids&lt;/h1>
+&lt;p>The major ancillary services required from inverter-interfaced DERs during i) normal operation (droop control) and ii) during grid faulty operation (fault-ride-through) will be investigated through a single test where the inverters are equipped with the appropriate smart control algorithms.&lt;/p></description></item><item><title>Docs: Test Case TC04</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc04/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc04/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>A. Paspatis, A. Kontou, A. F. Cortés Borray, Julia Merino&lt;/p>
@@ -157,8 +154,7 @@ Control systems&lt;/p>
 &lt;h3 id="quality-attributes-qa">Quality Attributes (QA)&lt;/h3>
 &lt;p>Microgird voltages inside the ±5% of the nominal voltage / Successful&lt;/p>
 &lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2>
-&lt;p>The most common voltage control algorithms for inverter-based microgrids will be validated through three tests, one for each control technique, where the inverters forming the inverter-based microgrid will be equipped with the appropriate voltage control algorithm. Then, the results will be collected to perform the comparison between the different voltage control techniques.&lt;/p></description></item><item><title>Docs: Test Case TC05</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc05/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc05/</guid><description>
-&lt;h1 id="test-case-5-power-efficiency-characterisation-of-photovoltaic-pv-inverters">Test Case 5: Power efficiency characterisation of PhotoVoltaic (PV) inverters&lt;/h1>
+&lt;p>The most common voltage control algorithms for inverter-based microgrids will be validated through three tests, one for each control technique, where the inverters forming the inverter-based microgrid will be equipped with the appropriate voltage control algorithm. Then, the results will be collected to perform the comparison between the different voltage control techniques.&lt;/p></description></item><item><title>Docs: Test Case TC05</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc05/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc05/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>Evangelos Rikos&lt;/p>
@@ -190,8 +186,8 @@ Control systems&lt;/p>
 &lt;li>PoI#2: Characterisation of MPPT accuracy&lt;/li>
 &lt;/ul>
 &lt;h2 id="system-under-test-sut">System under Test (SuT)&lt;/h2>
-&lt;p>In this TC the System-under-Test is the PV inverter which is connected on one end to the PV array and on other to the AC distribution grid.
-&lt;img src="TC05_SuT.png" alt="System under Test">&lt;/p>
+&lt;p>In this TC the System-under-Test is the PV inverter which is connected on one end to the PV array and on other to the AC distribution grid.&lt;/p>
+&lt;p>&lt;img src="./TC05_SuT.png" alt="System under Test">&lt;/p>
 &lt;h2 id="functions-under-test-fut">Functions under Test (FuT)&lt;/h2>
 &lt;ul>
 &lt;li>PV conversion (Current-Voltage characteristic of the PV array)&lt;/li>
@@ -237,8 +233,7 @@ Control systems&lt;/p>
 &lt;/ul>
 &lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2>
 &lt;p>The two PoIs of the selected TC can be addressed through two separate Test Specifications, partly in a combined way. In particular, in order to characterise the inverter’s efficiency (PoI#1) one test procedure (TS1) is required in which the SuT is tested under a wide range of irradiance variation. During this test the irradiance varies in a way that allows for the inverter to reach stability (e.g., not during fast moving clouds). For each stable operation point the input (DC) and output (AC) power values of the inverter are recorded and used for the calculation of the efficiency. Together with the converter efficiency the evaluation of the MPPT accuracy (PoI#2) can partly be obtained. The way to do this is the following: For each measuring point the maximum available power of the PV array is either calculated or measured and used in combination with the actual DC power at the inverter input in order to assess the accuracy of the MPPT algorithm. This test presumes the balanced operation of all PV modules in the array. Such operation leads to a smooth I-V characteristic which results in a P-V (power versus voltage) characteristic with one maximum point of power. However, a very interesting case can be the unbalanced operation of the PV modules which results not only in lower power but in a P-V characteristic with several maxima as well. The cause of such behaviour could be, for instance, partial shading over the PV array. As a consequence, in order to characterise the MPPT accuracy in a more holistic manner, a separate test (TS2) is required for the investigation of the inverter operation under unbalanced conditions on the PV array side.&lt;/p>
-&lt;p>&lt;img src="TC05_QS.png" alt="Qualification Strategy">&lt;/p></description></item><item><title>Docs: Test Case TC06</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc06/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc06/</guid><description>
-&lt;h1 id="test-case-6-evaluation-of-frequency-restoration-response-in-islanded-power-system">Test Case 6: Evaluation of frequency restoration response in islanded power system&lt;/h1>
+&lt;p>&lt;img src="./TC05_QS.png" alt="Qualification Strategy">&lt;/p></description></item><item><title>Docs: Test Case TC06</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc06/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc06/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>E. Rikos, L.Pellegrino, R. Lazzari&lt;/p>
@@ -278,9 +273,9 @@ Control systems&lt;/p>
 &lt;li>CHP microturbines&lt;/li>
 &lt;li>Battery inverters&lt;/li>
 &lt;li>RES inverters&lt;/li>
-&lt;li>Communication channels
-&lt;img src="TC06_SuT.png" alt="System under Test">&lt;/li>
+&lt;li>Communication channels&lt;/li>
 &lt;/ul>
+&lt;p>&lt;img src="./TC06_SuT.png" alt="System under Test">&lt;/p>
 &lt;h2 id="functions-under-test-fut">Functions under Test (FuT)&lt;/h2>
 &lt;ul>
 &lt;li>Battery Management System (BMS)&lt;/li>
@@ -350,8 +345,7 @@ Control systems&lt;/p>
 &lt;li>Load: at least 20%&lt;/li>
 &lt;/ul>
 &lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2>
-&lt;p>The selected PoI can be tackled by one Test Specification only in which only some input variables or system parameters need be changed over the test repetitions in order to achieve the desired results. In other words, aspects such as the main grid topology remain unchanged except for small reconfigurations. In our TC this topology is selected to be a LV distribution grid. Also, in order to validate the frequency response of the islanded microgrid, no specific tests are prerequisite to determine parameters and variable values necessary to conduct the main test.&lt;/p></description></item><item><title>Docs: Test Case TC07</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc07/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc07/</guid><description>
-&lt;h1 id="test-case-7-evaluation-of-cost-effective-operation-of-p2p-based-local-energy-system">Test Case 7: Evaluation of cost-effective operation of P2P-based local energy system&lt;/h1>
+&lt;p>The selected PoI can be tackled by one Test Specification only in which only some input variables or system parameters need be changed over the test repetitions in order to achieve the desired results. In other words, aspects such as the main grid topology remain unchanged except for small reconfigurations. In our TC this topology is selected to be a LV distribution grid. Also, in order to validate the frequency response of the islanded microgrid, no specific tests are prerequisite to determine parameters and variable values necessary to conduct the main test.&lt;/p></description></item><item><title>Docs: Test Case TC07</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc07/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc07/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>Julia Merino (TEC), Andres Cortes (TEC), Evangelos Rikos (CRES)&lt;/p>
@@ -417,8 +411,7 @@ Control systems&lt;/p>
 &lt;li>Technical operating levels of the grid, i.e., voltage, losses, and thermal capacity (fail)&lt;/li>
 &lt;/ul>
 &lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2>
-&lt;p>Two test specifications will be implemented: one for verifying the price algorithm of the trading coordinator along with its communication modules, and another for the verification of the control signals derived from the decision-making process to the controllable electrical devices. Note that the distribution network, mainly at the LV level, can be represented by a benchmark or real grid.&lt;/p></description></item><item><title>Docs: Test Case TC08</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc08/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc08/</guid><description>
-&lt;h1 id="test-case-8-evaluation-of-voltage-control-in-distribution-grids">Test Case 8: Evaluation of voltage control in distribution grids&lt;/h1>
+&lt;p>Two test specifications will be implemented: one for verifying the price algorithm of the trading coordinator along with its communication modules, and another for the verification of the control signals derived from the decision-making process to the controllable electrical devices. Note that the distribution network, mainly at the LV level, can be represented by a benchmark or real grid.&lt;/p></description></item><item><title>Docs: Test Case TC08</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc08/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc08/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>Tran The Hoang, Quoc Tuan Tran (CEA)&lt;/p>
@@ -451,8 +444,8 @@ There are a variety of voltage control strategies for distribution grids such as
 &lt;li>follow a characteristic curve provided by the DSO (see 4.4) within the active factor cos ϕ = 0,90-under-excited to 0,90-over-excited when the active power output of the PV plants is more than or equal to 20 % of its nominal active power;&lt;/li>
 &lt;li>not exchanging more reactive power than 10 % of the PV plant’s nominal active power when the active power output is less than 20 % of its nominal active power.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="image1.png" alt="image1.png">
-&lt;img src="image2.png" alt="image2.png">&lt;/p>
+&lt;p>&lt;img src="./image1.png" alt="image1.png">
+&lt;img src="./image2.png" alt="image2.png">&lt;/p>
 &lt;h2 id="object-under-investigation-oui">Object under Investigation (OuI)&lt;/h2>
 &lt;ul>
 &lt;li>Single-phase and three-phase PV inverters&lt;/li>
@@ -474,9 +467,9 @@ There are a variety of voltage control strategies for distribution grids such as
 &lt;li>Single-phase and three-phase PV inverters&lt;/li>
 &lt;li>Single-phase load and three-phase loads&lt;/li>
 &lt;li>Multi-agent system (MAS)&lt;/li>
-&lt;li>Communication of MAS
-&lt;img src="image3.png" alt="image3.png">&lt;/li>
+&lt;li>Communication of MAS&lt;/li>
 &lt;/ul>
+&lt;p>&lt;img src="./image3.png" alt="image3.png">&lt;/p>
 &lt;h2 id="functions-under-test-fut">Functions under Test (FuT)&lt;/h2>
 &lt;ul>
 &lt;li>MAS-based distributed voltage-var control&lt;/li>
@@ -519,8 +512,7 @@ There are a variety of voltage control strategies for distribution grids such as
 &lt;li>Increase of PV penetration&lt;/li>
 &lt;/ul>
 &lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2>
-&lt;p>Two aforementioned PoI can be addressed by implementing two respective Test Specifications indexed TC8.TS01 and TC8.TS02. In our TC, a LV network whose topology is unchanged with realistic parameters is selected. Different input variables can be varied during the test such as PV installed capacity (or PV penetration level), solar irradiance, load consumption, communication time delay in order to evaluate the performance of the proposed distributed voltage control scheme.&lt;/p></description></item><item><title>Docs: Test Case TC09</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc09/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc09/</guid><description>
-&lt;h1 id="test-case-9-evaluation-of-congestion-management-in-distribution-grid">Test Case 9: Evaluation of congestion management in distribution grid&lt;/h1>
+&lt;p>Two aforementioned PoI can be addressed by implementing two respective Test Specifications indexed TC8.TS01 and TC8.TS02. In our TC, a LV network whose topology is unchanged with realistic parameters is selected. Different input variables can be varied during the test such as PV installed capacity (or PV penetration level), solar irradiance, load consumption, communication time delay in order to evaluate the performance of the proposed distributed voltage control scheme.&lt;/p></description></item><item><title>Docs: Test Case TC09</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc09/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc09/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>Tran The Hoang, Luigi Pellegrino, Quoc Tuan Tran&lt;/p>
@@ -569,7 +561,7 @@ There are a variety of voltage control strategies for distribution grids such as
 In ICT domain:&lt;/li>
 &lt;li>Communication network&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="image1.png" alt="image1.png">&lt;/p>
+&lt;p>&lt;img src="./image1.png" alt="image1.png">&lt;/p>
 &lt;h2 id="functions-under-test-fut">Functions under Test (FuT)&lt;/h2>
 &lt;ul>
 &lt;li>DMS congestion management functionality&lt;/li>
@@ -608,8 +600,7 @@ In ICT domain:&lt;/li>
 &lt;li>Reduction in DER power curtailment&lt;/li>
 &lt;/ul>
 &lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2>
-&lt;p>The test case is split in two TSs: one to characterize the direct method, one to characterize the indirect method. Then, the results will be analysed to compare the performances of the two methods. For the TSs, either a pure simulation or a co-simulation will be performed.&lt;/p></description></item><item><title>Docs: Test Case TC10</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc10/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc10/</guid><description>
-&lt;h1 id="test-case-10-evaluation-of-secure-transition-from-grid-connected-to-islanded-operation-uninterruptible-power-supply">Test Case 10: Evaluation of secure transition from grid-connected to islanded operation: Uninterruptible Power Supply&lt;/h1>
+&lt;p>The test case is split in two TSs: one to characterize the direct method, one to characterize the indirect method. Then, the results will be analysed to compare the performances of the two methods. For the TSs, either a pure simulation or a co-simulation will be performed.&lt;/p></description></item><item><title>Docs: Test Case TC10</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc10/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc10/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>E. Rikos&lt;/p>
@@ -654,9 +645,9 @@ In ICT domain:&lt;/li>
 &lt;li>Static Switch&lt;/li>
 &lt;li>CHP microturbines&lt;/li>
 &lt;li>Battery inverters&lt;/li>
-&lt;li>Communication channels
-&lt;img src="TC10_SuT.png" alt="System under Test">&lt;/li>
+&lt;li>Communication channels&lt;/li>
 &lt;/ul>
+&lt;p>&lt;img src="./TC10_SuT.png" alt="System under Test">&lt;/p>
 &lt;h2 id="functions-under-test-fut">Functions under Test (FuT)&lt;/h2>
 &lt;ul>
 &lt;li>Microgrid Frequency Controller (MFC)&lt;/li>
@@ -717,8 +708,7 @@ In ICT domain:&lt;/li>
 &lt;p>In order to meet the specific PoI, which is the evaluation of the microgrid’s capability of UPS, three test specifications are required:
 -One test is related to the protection equipment and its effective detection of disturbances in the upstream distribution grid. This test ensures that the combination of the protection relay and the static switch can adequately disconnect the microgrid when frequency disturbances appear. This test examines the response of the protection subsystem for various kinds of disturbances including over/underfrequency and increased ROCOF.
 -The second test is related to the protection subsystem and its ability to detect voltage disturbances. The reason why this functionality is addressed separately than the frequency test is the different requirements in the test system topology. In the voltage test, specifically, the detailed microgrid topology is considered since it can affect the voltage level at the Point of Common Coupling.
--The third test is related to the response of the grid-supporting voltage source inverters of the microgrid after the disconnection. In principle, the test aims to assess the capability of these resources to maintain a voltage/frequency deviation within specific limits thanks to the primary control. The test is conducted under different initial conditions depending on the event that activates the protection equipment (for example, over/underfrequency).&lt;/p></description></item><item><title>Docs: Test Case TC11</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc11/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc11/</guid><description>
-&lt;h1 id="test-case-tc11-characterization-of-power-to-heat-service-availability-and-its-impact-on-the-networks">Test Case TC11: Characterization of power-to-heat service availability and its impact on the networks&lt;/h1>
+-The third test is related to the response of the grid-supporting voltage source inverters of the microgrid after the disconnection. In principle, the test aims to assess the capability of these resources to maintain a voltage/frequency deviation within specific limits thanks to the primary control. The test is conducted under different initial conditions depending on the event that activates the protection equipment (for example, over/underfrequency).&lt;/p></description></item><item><title>Docs: Test Case TC11</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc11/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc11/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>Tue Jensen, Kai Heussen (Edmund Widl)&lt;/p>
@@ -744,8 +734,8 @@ In ICT domain:&lt;/li>
 &lt;h2 id="purpose-of-investigation-poi">Purpose of Investigation (PoI)&lt;/h2>
 &lt;p>Characterize the impact use of local flexibility on available regulating power from a local district.&lt;/p>
 &lt;h2 id="system-under-test-sut">System under Test (SuT)&lt;/h2>
-&lt;p>“PCC” denotes the point of common coupling for the district to the external networks. All units connected downstream of the respective PCCs must be considered.
-&lt;img src="image1.png" alt="image1.png">&lt;/p>
+&lt;p>“PCC” denotes the point of common coupling for the district to the external networks. All units connected downstream of the respective PCCs must be considered.&lt;/p>
+&lt;p>&lt;img src="./image1.png" alt="image1.png">&lt;/p>
 &lt;h2 id="functions-under-test-fut">Functions under Test (FuT)&lt;/h2>
 &lt;ul>
 &lt;li>electrical and heat exchange (at respective PCC)&lt;/li>
@@ -760,8 +750,7 @@ In ICT domain:&lt;/li>
 &lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2>
 &lt;p>The PoI is addressed first using a simple implementation to verify the test concept and the functional principles, the outcome of TS01 is a preliminary characterisation of the same TCR as TS02.
 TS02 will then refine and validate the characterisation on a more realistic study case.&lt;/p>
-&lt;p>Test Specification TC.TS01&lt;/p></description></item><item><title>Docs: Test Case TC12</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc12/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc12/</guid><description>
-&lt;h1 id="test-case-12-verification-of-improved-self-consumption-of-res-in-a-coupled-heat-amp-power-network-using-power-to-heat">Test Case 12: Verification of improved self-consumption of RES in a coupled heat &amp;amp; power network using power-to-heat&lt;/h1>
+&lt;p>Test Specification TC.TS01&lt;/p></description></item><item><title>Docs: Test Case TC12</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc12/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc12/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>Benedikt Leitner, Edmund Widl&lt;/p>
@@ -803,7 +792,7 @@ TS02 will then refine and validate the characterisation on a more realistic stud
 &lt;p>Verification of reduction of energy flows flowing out of the network. At the same time energy imports should not increase and the operational parameters of both networks must remain within acceptable ranges.&lt;/p>
 &lt;h2 id="system-under-test-sut">System under Test (SuT)&lt;/h2>
 &lt;p>The SuT comprises a coupled low-voltage distribution network and local heating network (sub-urban district), which host residential homes, offices and workshops. A high share of the building stock is connected to the heating network, which is supplied by a central gas-fired boiler. Generation from rooftop photovoltaic power plants covers a significant part of the annual electric energy demand. Electric boilers are installed in the heating network with the aim to further increase the self-consumption of photovoltaic generation at a network scale.&lt;/p>
-&lt;p>&lt;img src="TC12_system_under_test.png" alt="Overview of the system under test.">&lt;/p>
+&lt;p>&lt;img src="./TC12_system_under_test.png" alt="Overview of the system under test.">&lt;/p>
 &lt;h2 id="functions-under-test-fut">Functions under Test (FuT)&lt;/h2>
 &lt;ul>
 &lt;li>energy flows (in and out of the networks)&lt;/li>
@@ -840,8 +829,7 @@ TS02 will then refine and validate the characterisation on a more realistic stud
 &lt;li>supply temperatures at substations above 65°C for 99% of time&lt;/li>
 &lt;li>transformer loading never goes above 100%&lt;/li>
 &lt;/ul>
-&lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2></description></item><item><title>Docs: Test Case TC13</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc13/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc13/</guid><description>
-&lt;h1 id="test-case-13-characterization-of-hydrogen-storage-scale-for-power-systems-support-and-services">Test Case 13: Characterization of hydrogen storage scale for power systems support and services.&lt;/h1>
+&lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2></description></item><item><title>Docs: Test Case TC13</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc13/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc13/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>Petra Raussi, Olli Himanen&lt;/p>
@@ -867,7 +855,7 @@ TS02 will then refine and validate the characterisation on a more realistic stud
 &lt;p>Characterize the optimal scale for hydrogen storage to be integrated with power systems and also provide potentially services to the reserve markets.&lt;/p>
 &lt;h2 id="system-under-test-sut">System under Test (SuT)&lt;/h2>
 &lt;p>SuT comprises of electrical grid, hydrogen network and heat network. The electrical system includes a medium (?) voltage grid with battery storage and renewable generation with integration to reserve markets. The hydrogen network will include fuel cells, conversion gas power plants, hydrogen storages. The heat network will include components for conversion to from the other networks and heat loads.&lt;/p>
-&lt;p>&lt;img src="TC13_system_under_test.png" alt="TC13_system_under_test.png">&lt;/p>
+&lt;p>&lt;img src="./TC13_system_under_test.png" alt="TC13_system_under_test.png">&lt;/p>
 &lt;h2 id="functions-under-test-fut">Functions under Test (FuT)&lt;/h2>
 &lt;ul>
 &lt;li>electrical and hydrogen exchange at the PCC (point of common coupling)&lt;/li>
@@ -896,8 +884,7 @@ TS02 will then refine and validate the characterisation on a more realistic stud
 &lt;li>cost of hydrogen storage not covered by earned profits&lt;/li>
 &lt;/ul>
 &lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2>
-&lt;p>There are three (3) Test Specifications to assess the scale of the hydrogen storage to meet the PoI. TS13.01 considers existing empty storage suitable for hydrogen, TS13.02 considers specifically extracted hydrogen storage and TS13.03 considers separate metal containers as a storage option.&lt;/p></description></item><item><title>Docs: Test Case TC14</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc14/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc14/</guid><description>
-&lt;h1 id="test-case-14-synthetic-inertia-and-fast-frequency-responsecontrol-provided-by-converter-based-resources">Test Case 14: Synthetic inertia and fast frequency response/control provided by converter-based resources&lt;/h1>
+&lt;p>There are three (3) Test Specifications to assess the scale of the hydrogen storage to meet the PoI. TS13.01 considers existing empty storage suitable for hydrogen, TS13.02 considers specifically extracted hydrogen storage and TS13.03 considers separate metal containers as a storage option.&lt;/p></description></item><item><title>Docs: Test Case TC14</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc14/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc14/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;h3 id="version">Version&lt;/h3>
@@ -967,10 +954,10 @@ Inertial response requirements:&lt;/p>
 &lt;li>Recovery time: not defined yet&lt;/li>
 &lt;li>Transition time: not defined yet&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="image1.png" alt="image1.png">
-&lt;img src="image2.png" alt="image2.png">
-&lt;img src="image3.png" alt="image3.png">
-&lt;img src="image4.png" alt="image4.png">&lt;/p>
+&lt;p>&lt;img src="./image1.png" alt="image1.png">
+&lt;img src="./image2.png" alt="image2.png">
+&lt;img src="./image3.png" alt="image3.png">
+&lt;img src="./image4.png" alt="image4.png">&lt;/p>
 &lt;h2 id="object-under-investigation-oui">Object under Investigation (OuI)&lt;/h2>
 &lt;h2 id="domain-under-investigation-dui">Domain under Investigation (DuI)&lt;/h2>
 &lt;p>Electrical domain.
@@ -987,8 +974,8 @@ In order to get insights from the test results, a simple benchmark is selected. 
 &lt;li>3 synchronous generators that will be increasingly replaced by power converters.&lt;/li>
 &lt;li>3 loads (considering asynchronous machines, constant power loads, constant impedance loads, etc.).&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="image5.png" alt="image5.png">
-&lt;img src="image6.png" alt="image6.png">&lt;/p>
+&lt;p>&lt;img src="./image5.png" alt="image5.png">
+&lt;img src="./image6.png" alt="image6.png">&lt;/p>
 &lt;h2 id="functions-under-test-fut">Functions under Test (FuT)&lt;/h2>
 &lt;p>Other frequency control such as Frequency Containment Reserve (FCR).
 Other high-level controllers (i.e., active and reactive power control).&lt;/p>
@@ -1037,8 +1024,7 @@ Quality attributes:&lt;/li>
 &lt;li>Measurement point: one for each resource&lt;/li>
 &lt;/ul>
 &lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2>
-&lt;p>Two test specifications will be implemented: one for verifying the FFR and SI control in case of the power converter is independent from other components and one for the verification of the OuI in case of interaction with other grid components and validation of the power system stability.&lt;/p></description></item><item><title>Docs: Test Case TC15</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc15/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc15/</guid><description>
-&lt;h1 id="test-case-15-smart-grid-control-algorithm--optimal-centralized-coordinated-voltage-control">Test Case 15: Smart Grid Control Algorithm – optimal centralized Coordinated Voltage Control&lt;/h1>
+&lt;p>Two test specifications will be implemented: one for verifying the FFR and SI control in case of the power converter is independent from other components and one for the verification of the OuI in case of interaction with other grid components and validation of the power system stability.&lt;/p></description></item><item><title>Docs: Test Case TC15</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc15/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc15/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>Alkistis Kontou, Dimitris Lagos, Loizos Loizou&lt;/p>
@@ -1096,8 +1082,7 @@ Quality attributes:&lt;/li>
 &lt;li>Estimation quality characterized with a confidence of 95% (characterization)&lt;/li>
 &lt;/ol>
 &lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2>
-&lt;p>The Pol will be met through a single test system where the MGCC will optimally control the voltages of a distribution network, while simultaneously minimizing power losses and tap change operations of the transformer&amp;rsquo;s on-load tap changer (OLTC). This will be accomplished with a central controller that receives real-time measurements from key nodes of the network (under normal operation), solves an optimization problem, and dispatches set-points to controllable devices located in the network, such as the OLTC, inverters of DER units and storage systems. The experimental setup will be a combined CHIL and PHIL to validate the performance in real conditions.&lt;/p></description></item><item><title>Docs: Test Case TC16</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc16/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc16/</guid><description>
-&lt;h1 id="test-case-16-testing-black-start-capability-using-distributed-converted-interfaced-resources">Test Case 16: Testing Black-Start capability using distributed converted interfaced resources&lt;/h1>
+&lt;p>The Pol will be met through a single test system where the MGCC will optimally control the voltages of a distribution network, while simultaneously minimizing power losses and tap change operations of the transformer&amp;rsquo;s on-load tap changer (OLTC). This will be accomplished with a central controller that receives real-time measurements from key nodes of the network (under normal operation), solves an optimization problem, and dispatches set-points to controllable devices located in the network, such as the OLTC, inverters of DER units and storage systems. The experimental setup will be a combined CHIL and PHIL to validate the performance in real conditions.&lt;/p></description></item><item><title>Docs: Test Case TC16</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc16/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc16/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>Evangelos Rikos, Julia Merino, Andres Cortes&lt;/p>
@@ -1139,9 +1124,9 @@ Quality attributes:&lt;/li>
 &lt;li>Distribution Management System (DMS)&lt;/li>
 &lt;li>Circuit breakers&lt;/li>
 &lt;li>Battery energy storage system (BESS)&lt;/li>
-&lt;li>Distribution Grid
-&lt;img src="TC16_SuT.png" alt="System under Test">&lt;/li>
+&lt;li>Distribution Grid&lt;/li>
 &lt;/ul>
+&lt;p>&lt;img src="./TC16_SuT.png" alt="System under Test">&lt;/p>
 &lt;h2 id="functions-under-test-fut">Functions under Test (FuT)&lt;/h2>
 &lt;ul>
 &lt;li>Battery Management System&lt;/li>
@@ -1206,8 +1191,7 @@ Quality attributes:&lt;/li>
 &lt;p>In order to meet the specific PoI, which is the evaluation of the distribution system’s Black Start capability, three separate test specifications are required:
 -One test is related to the partitioning of the system. That is how the centralized BS controller manages to disconnect and reconnect components of the grid, either resources (loads, generators) or lines. The test validates the correctness of the disconnection order of components, as well as the ability of the controller to reconnect them at times when voltage and frequency are well within specific boundaries and more or less stable.
 -The second test verifies the ability of the system to maintain voltage and frequency within specific boundaries after the BS generator is started up by the BS central controller. The specific operating limits for this test are more relaxed as opposed to the ones that apply in normal operation.
--The third test is a sort of endurance test which validates the BS generator’s ability to provide the service for a minimum time duration (e.g., 1 hour). In other words, this test comes down to verifying the energy reserve of the BS generator.&lt;/p></description></item><item><title>Docs: Test Case TC18</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc18/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc18/</guid><description>
-&lt;h1 id="test-case-18-evaluation-of-various-service-definitions-and-activation-patterns">Test Case 18: Evaluation of various service definitions and activation patterns&lt;/h1>
+-The third test is a sort of endurance test which validates the BS generator’s ability to provide the service for a minimum time duration (e.g., 1 hour). In other words, this test comes down to verifying the energy reserve of the BS generator.&lt;/p></description></item><item><title>Docs: Test Case TC18</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc18/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc18/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>Christoph Bauschmann, Matti Aro, Petra Raussi&lt;/p>
@@ -1279,8 +1263,7 @@ Observer functions: Monitoring of network properties (e.g., voltage, current, un
 &lt;li>Quick fault reduction&lt;/li>
 &lt;/ul>
 &lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2>
-&lt;p>PoI#1 is met with TS 18.01 and PoI#2 is met with TS 18.02. PoI#3 does not have a separate TS as it falls under the TC19 pre-qualification concepts.&lt;/p></description></item><item><title>Docs: Test Case TC19</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc19/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc19/</guid><description>
-&lt;h1 id="test-case-19-evaluation-of-unintended-impacts-of-activation-of-flexibility-resources-on-the-quality-of-supply">Test Case 19: Evaluation of unintended impacts of activation of flexibility resources on the quality of supply&lt;/h1>
+&lt;p>PoI#1 is met with TS 18.01 and PoI#2 is met with TS 18.02. PoI#3 does not have a separate TS as it falls under the TC19 pre-qualification concepts.&lt;/p></description></item><item><title>Docs: Test Case TC19</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc19/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc19/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>Merkebu Zenebe, Tesfaye Amare, Petra Raussi, Aro Matti&lt;/p>
@@ -1312,7 +1295,7 @@ Observer functions: Monitoring of network properties (e.g., voltage, current, un
 &lt;p>PoI#2: Characterization of the communication technologies used for flexibility activation for their vulnerabilities towards misuse case.&lt;/p>
 &lt;h2 id="system-under-test-sut">System under Test (SuT)&lt;/h2>
 &lt;p>The test system includes large distribution network, customer loads with variety of flexibility resources (shiftable loads, hot water tanks, home EV charging stations …etc). In addition, an aggregator/DSO with responsibility of activation of flexibility resources implicitly or explicitly. The underlying ICT infrastructure for both control and price signal communication is also part of the test system.&lt;/p>
-&lt;p>&lt;img src="TC19_System_under_Test.png" alt="TC19_System_under_Test.png">&lt;/p>
+&lt;p>&lt;img src="./TC19_System_under_Test.png" alt="TC19_System_under_Test.png">&lt;/p>
 &lt;h2 id="functions-under-test-fut">Functions under Test (FuT)&lt;/h2>
 &lt;ul>
 &lt;li>DSO function: Peak shaving&lt;/li>
@@ -1363,8 +1346,7 @@ Observer functions: Monitoring of network properties (e.g., voltage, current, un
 &lt;/ul>
 &lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2>
 &lt;p>PoI#1 is met with Test Specification 19.01 and PoI#2 with Test Specification 19.02.&lt;/p>
-&lt;p>&lt;img src="TC19_Qualification_strategy.png" alt="TC19_Qualification_strategy.png">&lt;/p></description></item><item><title>Docs: Test Case TC20</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc20/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc20/</guid><description>
-&lt;h1 id="test-case-20-test-methods-for-integrationinteroperability-assessment-for-building-and-resource-level-management-systems-in-participation-with-aggregation-platform">Test Case 20: Test methods for integration/interoperability assessment for building and resource-level management systems in participation with aggregation platform&lt;/h1>
+&lt;p>&lt;img src="./TC19_Qualification_strategy.png" alt="TC19_Qualification_strategy.png">&lt;/p></description></item><item><title>Docs: Test Case TC20</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc20/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc20/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>OFFIS&lt;/p>
@@ -1441,8 +1423,7 @@ Observer functions: Monitoring of network properties (e.g., voltage, current, un
 &lt;li>Short integration process&lt;/li>
 &lt;/ul>
 &lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2>
-&lt;p>Test Specifications to this Test Case will address the PoI for a specific DER type. TS 20.1 covers PoI#2 and PoI#4 for PV systems directly within its testing scope, while providing the means to evaluate PoI#1 and PoI#3 based on the results accomplished by the previously integrated PV system.&lt;/p></description></item><item><title>Docs: Test Case TC21</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc21/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc21/</guid><description>
-&lt;h1 id="test-case-21-performance-characterization-of-new-equipment-and-communication-technologies">Test Case 21: Performance characterization of new equipment and communication technologies&lt;/h1>
+&lt;p>Test Specifications to this Test Case will address the PoI for a specific DER type. TS 20.1 covers PoI#2 and PoI#4 for PV systems directly within its testing scope, while providing the means to evaluate PoI#1 and PoI#3 based on the results accomplished by the previously integrated PV system.&lt;/p></description></item><item><title>Docs: Test Case TC21</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc21/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc21/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>Felipe Castro&lt;/p>
@@ -1516,8 +1497,7 @@ The test consists in the connection of the Real Time simulator to both communica
 &lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2>
 &lt;p>The PoI can be addressed by firstly determining which are the requirements in terms of Quality of Service (QoS) of the application for which the communication is being assessed. These requirements are to be determined by the user depending on individual criteria.&lt;/p>
 &lt;p>Secondly, the minimum periodicity for which a value is sent and for which there is a packet loss less than 1% can be assessed by following the Test Specification NA4-TC21.TS1.&lt;/p>
-&lt;p>Finally, considering the results from NA4-TC21.TS1, the QoS performance indicators can be obtained for different emulated delays by following the Test Specification NA4-TC21.TS2.&lt;/p></description></item><item><title>Docs: Test Case TC22</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc22/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc22/</guid><description>
-&lt;h1 id="test-case-22-resilience-assessment-of-ict-infrastructure">Test Case 22: Resilience Assessment of ICT infrastructure&lt;/h1>
+&lt;p>Finally, considering the results from NA4-TC21.TS1, the QoS performance indicators can be obtained for different emulated delays by following the Test Specification NA4-TC21.TS2.&lt;/p></description></item><item><title>Docs: Test Case TC22</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc22/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc22/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;h3 id="version">Version&lt;/h3>
@@ -1560,8 +1540,8 @@ The impact on grid operations is measured by noting how aforementioned factors a
 &lt;li>A communication network emulator/simulator to model disturbances/cyber attacks
 The testing involves interfacing the real-time grid simulator with all hardware components in a HIL setup to mimic a digital substation. Furthermore, the real-time grid simulator also needs to be interfaced with the network emulator to model and input communication related effects such as latency, packet loss, loss of service, etc.&lt;/li>
 &lt;/ul>
-&lt;p>Source: Centralized Protection and Control.&lt;br>
-&lt;img src="image1.png" alt="image1.png">&lt;/p>
+&lt;p>Source: Centralized Protection and Control.&lt;/p>
+&lt;p>&lt;img src="./image1.png" alt="image1.png">&lt;/p>
 &lt;h2 id="functions-under-test-fut">Functions under Test (FuT)&lt;/h2>
 &lt;ul>
 &lt;li>Capability of the real-time grid simulator to exchange data using IEC 61850 and IEC 60870-5-104&lt;/li>
@@ -1610,8 +1590,7 @@ The testing involves interfacing the real-time grid simulator with all hardware 
 &lt;p>The PoI are mainly addressed by characterizing and verifying the impact of ICT infrastructure performance on grid operations, in a digital substation. This can be achieved by determining how protection functionality and thereby power system stability is affected by disturbances to ICT infrastructure.&lt;/p>
 &lt;ul>
 &lt;li>As per the IEC 61850 standard, the maximum tripping time for protection equipment should always be lesser than 10ms. Hence, this can be used as a metric to assess the cyber resilience of a digital substation. This assessment is subject to presence of component failures in the ICT infrastructure of the substation, misconfigurations, and cyber attacks targeting the substation ICT infrastructure.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Test Case TC24</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc24/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc24/</guid><description>
-&lt;h1 id="test-case-24-interoperability-testing-and-validation-in-the-activation-chain-of-flexibility-related-events-in-a-local-distribution-network">Test Case 24: Interoperability testing and validation in the activation chain of flexibility-related events in a local distribution network&lt;/h1>
+&lt;/ul></description></item><item><title>Docs: Test Case TC24</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc24/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc24/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>Dimitrios Thomas, Petra Raussi, Vetrivel S. Rajkumar, Jawad Kazmi&lt;/p>
@@ -1626,8 +1605,8 @@ systematic approach for developing smart grid interoperability tests may facilit
 &lt;p>The proposed Test Case is conducted following the JRC Smart Grid Interoperability methodology. The methodology is used mainly as a common framework for interoperability testing and consist of five stages; Use Case creation (UC), Basic Application Profile (BAP) creation, Basic
 Application Interoperability profile (BAIOP) creation, Design of Experiments (DoE), Testing and Analysis of Experiments (AE). Each stage allows the developer to select certain features then used in the subsequent stage. During the completion of all stages, the developer can select relevant standards, their options, test beds with all qualified and test equipment as well their attributes or functions used during the testing. The proposed methodology summarizes a set of best practices the developer could follow to complete in a smooth way a smart grid interoperability test.&lt;/p>
 &lt;p>Fig.1 A schematic overview of the JRC Interoperability testing methodology&lt;/p>
-&lt;p>In this test case, we will investigate through the interoperability validation tests, the interaction and information exchange between the involved actors for a flexibility activation event. This event will be triggered by a local node voltage disturbance and followed by a consequent flexibility request. To this end, we will analyze voltage restoration level, time and control.
-&lt;img src="TC24_Narrative.png" alt="TC24_Narrative.png">&lt;/p>
+&lt;p>In this test case, we will investigate through the interoperability validation tests, the interaction and information exchange between the involved actors for a flexibility activation event. This event will be triggered by a local node voltage disturbance and followed by a consequent flexibility request. To this end, we will analyze voltage restoration level, time and control.&lt;/p>
+&lt;p>&lt;img src="./TC24_Narrative.png" alt="TC24_Narrative.png">&lt;/p>
 &lt;h2 id="functions-under-investigation-fui">Function(s) under Investigation (FuI)&lt;/h2>
 &lt;p>Voltage restore, activation and restoration time for interoperability profiles (BAIOP), validate the interfaces between the actors involved in the flexibility activation chain, impact to the grid.&lt;/p>
 &lt;p>In this use case, we will analyze the performance of the “voltage restoration” function, after a voltage disturbance occurs in the power grid when different system variables (input factors) are considered and changed. The performance of this function is assessed an interoperability point of view, where different system variables (input factors) potentially affecting the system performance are considered and their effect on the system response is analysed. A reference grid model will be used (JRA1.1?).&lt;/p>
@@ -1673,8 +1652,7 @@ Observer functions: SCADA monitoring system to detect voltage deviations and ins
 &lt;li>System restoration time&lt;/li>
 &lt;/ul>
 &lt;h2 id="qualification-strategy">Qualification Strategy&lt;/h2>
-&lt;p>Both PoI#1 and PoI#2 are met with Test Specification 24.01. The overall interoperability evaluation for the test will be in the form of a final “pass/fail” form. For PoI#2, the time that the system needs to activate the voltage support mechanism and successfully restore the voltage to acceptable levels will be evaluated. It should be also mentioned that although both PoI can be met by TS 24.01, multiple interfaces (each one corresponding to a different BAIOP) depending on the selected telecommunication technology will be tested for the two communication links under consideration (DSO ↔ RTU and RTU ↔ Device). These will result in multiple experiment specifications.&lt;/p></description></item><item><title>Docs: Test Case TC25</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc25/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc25/</guid><description>
-&lt;h1 id="test-case-25-cyber-security-of-digital-substations-and-impact-analysis">Test Case 25: Cyber Security of Digital Substations and Impact Analysis&lt;/h1>
+&lt;p>Both PoI#1 and PoI#2 are met with Test Specification 24.01. The overall interoperability evaluation for the test will be in the form of a final “pass/fail” form. For PoI#2, the time that the system needs to activate the voltage support mechanism and successfully restore the voltage to acceptable levels will be evaluated. It should be also mentioned that although both PoI can be met by TS 24.01, multiple interfaces (each one corresponding to a different BAIOP) depending on the selected telecommunication technology will be tested for the two communication links under consideration (DSO ↔ RTU and RTU ↔ Device). These will result in multiple experiment specifications.&lt;/p></description></item><item><title>Docs: Test Case TC25</title><link>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc25/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://erigrid2.github.io/test-case-descriptions/docs/usecases/erigrid2.0/tc25/</guid><description>
 &lt;h2 id="version-management">Version management&lt;/h2>
 &lt;h3 id="author">Author&lt;/h3>
 &lt;p>Petra Raussi (VTT), Vetrivel Subramaniam Rajkumar (TUD)&lt;/p>
@@ -1724,7 +1702,7 @@ Observer functions: SCADA monitoring system to detect voltage deviations and ins
 The testing involves interfacing the real-time grid simulator with all hardware components in a HIL setup to mimic a digital substation. Furthermore, the real-time grid simulator also needs to be interfaced with the network emulator to model and input communication related effects such as latency, packet loss, loss of service, etc.&lt;/li>
 &lt;/ul>
 &lt;p>Source: Centralized Protection and Control. ABB Whitepaper, 2020. Link:&lt;/p>
-&lt;p>&lt;img src="TC25_System_under_Test.png" alt="TC25_System_under_Test.png">&lt;/p>
+&lt;p>&lt;img src="./TC25_System_under_Test.png" alt="TC25_System_under_Test.png">&lt;/p>
 &lt;h2 id="functions-under-test-fut">Functions under Test (FuT)&lt;/h2>
 &lt;ul>
 &lt;li>Capability of test setup to exchange data using IEC 61850 and IEC 60870-5-104&lt;/li>
